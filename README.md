@@ -239,20 +239,19 @@ Now we have our repository. If we click on the ‘clone or download’ button we
 
 
 
-Where to issue commands
+###Where to issue commands
 You need to open up your terminal app (Mac / Linux), in windows this is called the Command Prompt 
-Mac
+   * Mac
 Open up your apps
 
 then click on ‘other’ and select the terminal 
 
-Linux
+   * Linux
+
 Typically the keyboard shortcut is CTRL+ T  
 Alternatively it should be easily found in the menu;I suggest you keep your terminal on the desktop as e.g. a shortcut or on a dock.
 
-Windows     [http://www.intowindows.com/command-prompt-as-administrator-in-windows-10/ ] 
-
-
+   * Windows     [http://www.intowindows.com/command-prompt-as-administrator-in-windows-10/ ] 
 
 
 To be hip, get Git
