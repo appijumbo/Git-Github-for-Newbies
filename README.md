@@ -1,5 +1,5 @@
 #Git & Github:  A Web Dev Newbie Guide
-###or how Git became less of a git
+or how Git became less of a git
 
 
 ##Summary
@@ -13,7 +13,6 @@ If your new to programming or web development then this guide is aimed at you. F
 This guide is aimed at web dev newbies; those that are just getting into the technology. If your not a web dev newbie but want to review Git/Github then you might still want to read because I’ve tried to make it as straight forward as I can. And if by chance your a Git expert and you’ve stumbled upon this please feel free to offer any suggestions or corrections.
 This course is also intend for those setting up community based project teams perhaps with inexperienced developers from different backgrounds. As such I aim to be as platform agnostic as I can i.e. suitable for Mac, Windows and Linux.
 
-___
 
 ##Part 1: Introduction
 ###What is Git?
@@ -27,7 +26,7 @@ Ok so that all makes sense then my fellow newbies...er probably not.
 
 Short answer; no. Indeed as a Brit myself it came as a bit of a surprise that it was named by its inventor Linus Torvalds as a play on the fact that people might call him a bit of a ‘git’. This is British slang for a troublesome annoying person. Thus no technical meaning, fancy mnemonics or otherwise to the actual name ‘git’. 
 
-###SO WHAT THE HECK IS GIT and GITHUB ?:-
+####SO WHAT THE HECK IS GIT and GITHUB ?:-
 
    * Git is a tool you install on your own computer for organising the development of code and communicating to programmers efficiently.
 
