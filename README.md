@@ -27,11 +27,11 @@ Ok so that all makes sense then my fellow newbies...er probably not.
 
 Short answer; no. Indeed as a Brit myself it came as a bit of a surprise that it was named by its inventor Linus Torvalds as a play on the fact that people might call him a bit of a ‘git’. This is British slang for a troublesome annoying person. Thus no technical meaning, fancy mnemonics or otherwise to the actual name ‘git’. 
 
-##SO WHAT THE HECK IS GIT and GITHUB ?:-
+###SO WHAT THE HECK IS GIT and GITHUB ?:-
 
-Git is a tool you install on your own computer for organising the development of code and communicating to programmers efficiently.
+   * Git is a tool you install on your own computer for organising the development of code and communicating to programmers efficiently.
 
-Github is a cloud based version of Git that also provides repositories where code is stored and also tools to facilitate communication between coders. It is ostensibly a cloud based implementation of Git.
+   * Github is a cloud based version of Git that also provides repositories where code is stored and also tools to facilitate communication between coders. It is ostensibly a cloud based implementation of Git.
 
 ###A mental model of Git for newbies
 Lets give you a mental model. A traditional paper office desk can become incredibly untidy and when you've run out of piling up the paper on the desk you start to pile it up un the floor, boxes, post-it notes, envelopes folders etc etc. (I’ve even known someone who had a pair of boots hidden in a pile of papers that had a mouse nesting in them!) Finding information, remembering what and who it was for can become practically impossible. 
