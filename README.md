@@ -28,7 +28,7 @@ Short answer; no. Indeed as a Brit myself it came as a bit of a surprise that it
 
 ####SO WHAT THE HECK IS GIT and GITHUB ?:-
 
-   ###Git is a tool you install on your own computer for organising the development of code and communicating to programmers efficiently.
+###     Git is a tool you install on your own computer for organising the development of code and communicating to programmers efficiently.
 
    ### **Github** is a cloud based version of Git that also provides repositories where code is stored and also tools to facilitate communication between coders. It is ostensibly a cloud based implementation of Git.
 
