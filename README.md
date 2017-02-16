@@ -360,9 +360,7 @@ The easiest way for Mac and Windows users is to [install Github Desktop](https:/
 Now open your terminal and enter
 `$  git –-version`  (note the double hyphen i.e. -- )
     
-                    You should see a version number higher than 1.7.10, in this case 2.7.4
-
-                    Now to “GitKraken; a cracking way to see git”
+You should see a version number higher than 1.7.10, in this case 2.7.4; now go to “GitKraken; a cracking way to see git”
 
 
 see pic
