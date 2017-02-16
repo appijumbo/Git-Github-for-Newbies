@@ -98,16 +98,12 @@ Reviewing
   
   
 
-
-
-
-
   
            |Github Desktop|SourceTree|SmartGit|GitKraken |Git-cola|
 -----------|--------------|----------|--------|----------|--------|
 Open Source|      No      |    No    |   No   | No(see 5)|   Yes  |
 -----------|--------------|----------|--------|----------|--------|
-fffffffffff|ffffffffffffff|FfffffffFf|Ffffffff|Ffffffffff|Ffffffff|
+Free for community use|Yes|Yes|Yes(non-commercial)|Yes|Yes |
 -----------|--------------|----------|--------|----------|--------|
 fffffffffff|ffffffffffffff|FfffffffFf|Ffffffff|Ffffffffff|Ffffffff|
 -----------|--------------|----------|--------|----------|--------|
