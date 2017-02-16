@@ -469,14 +469,16 @@ Things are slightly different  different on Windows. You define how your IDE ope
 Setting up your identity on Git is important. [From Git’s own handbook](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 The first thing you should do when you install Git is to set your user name and email address. This is important because every Git commit uses this information, and it’s immutably baked into the commits you start creating:
 
-`$ git config --global user.name "John Doe"
+`$ git config --global user.name "John Doe"`
 
-$ git config --global user.email johndoe@example.com`
+`$ git config --global user.email johndoe@example.com`
 
 ###GitKraken; a cracking way to see git
 
 
+
 see pic
+
 
 
 As of August 2016  GitKraken (the free versions) is available for Windows 7+, Mac OSX 10.8+ , Linux (specifically Ubuntu LTS 12.04+, Debian 8+, Fedora 21+), so many users should be covered.
