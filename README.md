@@ -203,15 +203,17 @@ Udacity regularly asks questions and provides quite good automated feedback on y
 One minor irritation is a couple of times you have to download and install a file to simulate a commit from someone or to simulated Github repository activity. Whilst the idea is sound, its quite distracting and I hope Udacity tweaks this part of the course in future to make the lesson closer to the real thing.
 
 ###Which course would I recommend? 
-To be honest picking a single one isn’t what I’d recommend, all of them are very good in their own way. A lot depends on the environment your learning in, time availability etc. If push came to shove and your very short on time I’d say do the nodeschool “git-it” course. However if your like me and the fast pitch approach isn’t enough to stick in your head then add in the Udacity course or the Git-real course from CodeSchool.Notable Quality Youtube Tutorials 
+Much depends on the environment your learning in, time availability etc. If push came to shove and your very short on time I’d say do the nodeschool “git-it” course. However if your like me and the fast pitch approach isn’t enough to stick in your head then add in the Udacity course or the Git-real course from CodeSchool.Notable Quality Youtube Tutorials 
 
-Youtube provides some excellent tutorials including: [“GitHub for Noobs” by Travis Neilson](http://bit.ly/2buQQ9Z)
+Youtube provides some excellent tutorials including: 
+
+  * [“GitHub for Noobs” by Travis Neilson](http://bit.ly/2buQQ9Z)
 Travis is a front-end developer with a superb channel aimed at the creative arty types who also need to do coding. He now works for Google and has presented some videos on Adobe’s channel. If your a ‘creative’, as in art, that needs to code his channel he’s a great starting point. He presents in a very entertaining and articulate way four videos 5 to 25 minutes each.
 
-[“Git Video Tutorial” by Derek Banas](http://bit.ly/2aYkkyw)
+  * [“Git Video Tutorial” by Derek Banas](http://bit.ly/2aYkkyw)
 If you like a fast pace, and your into coding then Derek’s your guy. Have a look around his channel and you'll be impressed by the breadth of his knowledge on coding.  His Git courses is four videos approx 15 to 25 mins each.
 
-Github themselves have produced Git and Github tutorials
+  * Github themselves have produced Git and Github tutorials
 [“GitHub Training & Guides”](http://bit.ly/1KqBfC0) This is four part video tutorial from Github, each video is about 6 minutes. 
 [“GitHub & Git Foundations”](http://bit.ly/2aXfzCu). It’s a 22 part video course on the basics of Github. Personally I couldn’t quite get into this course because of the video editing style but its worth having a look at as its made by Github themselves.
 
