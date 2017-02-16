@@ -69,7 +69,7 @@ As well see later in this guide, many courses online focus on using Git in the c
 There are a lot of Git GUI front ends available for a quick reference see [“Git-scm GUI Clients”](https://git-scm.com/download/gui/linux or perhaps) [“10 Best Graphical Git Clients for Developers”](http://www.freshtechtips.com/2015/03/git-client-windows-mac-linux.html)
 However for the purpose of this course I’ve aimed this at web dev newbies and community teams that need to cater for all platforms, not just the latest and greatest Windows or Mac. Its important to 
 
-   * Questions we might ask ourselves when choosing a Git GUI might be ?
+Questions we might ask ourselves when choosing a Git GUI might be ?
    * What platforms (Linux, Mac, Windows) are the team members using ?
    * What any new team members might use in future ?
    * How important is it thats its open source ?
@@ -78,11 +78,13 @@ However for the purpose of this course I’ve aimed this at web dev newbies and 
 
 Our clubs aim is to develop community projects and support newbies developing skills in a professional setting. Teaching one another is important; hence having the same Git GUI may well be advantageous. Projects will be community focused and need to be have as low as possible entry costs. Moreover we have no control over what platform future team members will be joining with.
 
-Needs to support all platforms as Linux is a good free fall back option
+   * Needs to support all platforms as Linux is a good free fall back option
 
-Command line access would be great, but perhaps not essential; one can always use the terminal
-Open source is great, but it must work well for newbie members
-It needs to be largely free, using the free version of a free/pro-paid business model is probably ok
+   * Command line access would be great, but perhaps not essential; one can always use the terminal
+
+   * Open source is great, but it must work well for newbie members
+
+   * It needs to be largely free, using the free version of a free/pro-paid business model is probably ok
 
 Reviewing
 
@@ -90,7 +92,37 @@ Reviewing
 
   * [“10 Best Graphical Git Clients for Developers”](http://www.freshtechtips.com/2015/03/git-client-windows-mac-linux.html)
 
-  * [“Alternatives to SmartGit for all platforms”](http://alternativeto.net/software/smartgit/) is a simple table for Git GUI candidate table may be created
+  * [“Alternatives to SmartGit for all platforms”](http://alternativeto.net/software/smartgit/)
+  
+  a simple table for Git GUI candidate table may be created
+  
+  
+
+
+
+
+
+  
+           |Github Desktop|SourceTree|SmartGit|GitKraken |Git-cola|
+-----------|--------------|----------|--------|----------|--------|
+Open Source|      No      |    No    |   No   | No(see 5)|   Yes  |
+-----------|--------------|----------|--------|----------|--------|
+fffffffffff|ffffffffffffff|FfffffffFf|Ffffffff|Ffffffffff|Ffffffff|
+-----------|--------------|----------|--------|----------|--------|
+fffffffffff|ffffffffffffff|FfffffffFf|Ffffffff|Ffffffffff|Ffffffff|
+-----------|--------------|----------|--------|----------|--------|
+fffffffffff|ffffffffffffff|FfffffffFf|Ffffffff|Ffffffffff|Ffffffff|
+-----------|--------------|----------|--------|----------|--------|
+fffffffffff|ffffffffffffff|FfffffffFf|Ffffffff|Ffffffffff|Ffffffff|
+-----------|--------------|----------|--------|----------|--------|
+fffffffffff|ffffffffffffff|FfffffffFf|Ffffffff|Ffffffffff|Ffffffff|
+-----------|--------------|----------|--------|----------|--------|
+fffffffffff|ffffffffffffff|FfffffffFf|Ffffffff|Ffffffffff|Ffffffff|
+-----------|--------------|----------|--------|----------|--------|
+fffffffffff|ffffffffffffff|FfffffffFf|Ffffffff|Ffffffffff|Ffffffff|
+-----------|--------------|----------|--------|----------|--------|
+fffffffffff|ffffffffffffff|FfffffffFf|Ffffffff|Ffffffffff|Ffffffff|
+-----------|--------------|----------|--------|----------|--------|
 
 ___
 
