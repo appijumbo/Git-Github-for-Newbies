@@ -221,9 +221,12 @@ If you like a fast pace, and your into coding then Derek’s your guy. Have a lo
 
 ###Cheat Sheets
 There are many cheat sheets on Git and here’s just a few of them. I’d recommend printing out at least one of these as your getting into Git and keep within arms reach. They are a very handy on a day to day basis. 
-[“Git Cheat sheet” by Github](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf (this is the one I use, it fits on a single sheet a paper double side printing)
-[“git - the simple guide - no deep shit”](http://rogerdudler.github.io/git-guide/)
-[“Git Cheat sheet” by Tower](https://www.git-tower.com/blog/git-cheat-sheet/)
+
+  * [“Git Cheat sheet” by Github](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+
+this is the one I use, it fits on a single sheet a paper double side printing
+  * [“git - the simple guide - no deep shit”](http://rogerdudler.github.io/git-guide/)
+  * [“Git Cheat sheet” by Tower](https://www.git-tower.com/blog/git-cheat-sheet/)
 
 ###Books
 If your really keen and want to get the possibly best ebook on Git then the [Git Pro-git book](https://git-scm.com/book/en/v2) is what you want. Its not aimed at web dev newbies but you might want to be aware of it and at least peruse the introduction and contents pages to get an idea of how big Git is. However I’d suggest perhaps looking at this book after you’ve mastered the basics as it might be a bit too overwhelming for the newbie (its 364 pages long!).
