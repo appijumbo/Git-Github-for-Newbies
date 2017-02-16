@@ -94,8 +94,10 @@ Reviewing
 
   * [“Alternatives to SmartGit for all platforms”](http://alternativeto.net/software/smartgit/)
   
-  a simple table for Git GUI candidate table may be created
-  
+
+
+####A simple table for Git GUI candidate table may be created
+
 
   
            |Github Desktop|SourceTree|SmartGit|GitKraken |Git-cola|
@@ -105,13 +107,11 @@ Free for community use|Yes|Yes|Yes(non-commercial)|Yes|Yes |
 Free for professional use|Yes|Yes(need to register)|No(ro $7/mth|No(pro $6/mth)|Yes|
 Used in professional settings|Yes|Yes||Yes|unsure|
 Considered easy to use|Yes|Yes(see 1)|No(see 4)|unsure|No(see 6)|
-fffffffffff|ffffffffffffff|FfffffffFf|Ffffffff|Ffffffffff|Ffffffff|
-fffffffffff|ffffffffffffff|FfffffffFf|Ffffffff|Ffffffffff|Ffffffff|
-fffffffffff|ffffffffffffff|FfffffffFf|Ffffffff|Ffffffffff|Ffffffff|
-fffffffffff|ffffffffffffff|FfffffffFf|Ffffffff|Ffffffffff|Ffffffff|
+Can use command line entry|No|Yes|Yes|No|Yes|
+Mac|Yes|Yes(see 2)|Yes|Yes|Yes|
+Windows|Yes|Yes|Yes|Yes|Yes|
+Linu|No|No|Yes|Yes(deb/Ubuntu)|Yes|
 
-
-___
 
   1 [“Perfect for beginners”](http://www.freshtechtips.com/2015/03/git-client-windows-mac-linux.html)
 
