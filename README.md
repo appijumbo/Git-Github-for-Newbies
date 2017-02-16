@@ -482,65 +482,107 @@ see pic
 
 
 As of August 2016  GitKraken (the free versions) is available for Windows 7+, Mac OSX 10.8+ , Linux (specifically Ubuntu LTS 12.04+, Debian 8+, Fedora 21+), so many users should be covered.
+
 For newbies,  just get the free version for now.
+
 But If you become a happy GitKraken user then GitKraken pro costs $6/ month and gives you added features from the basic free version including: edit your merge conflict output in-app, multiple profiles for work & personal and email-based support.
 
 You should now have a Github account, have Git installed on your local machine and also the GitKraken Git GUI installed.
-To start your git, use intit !
+
+
+
+## To start your git, use intit !
 We discussed what Git is earlier what repositories are. But briefly a repository is a project folder or directory where your code is stored and also where the information about the flow of the contents contained in the folder are controlled and managed.
+
 Lets make a directory called ‘CommunityTechLiverpool’ in the usual way you do on your machine. 
 You can do this in the command line, or whatever way you normally do this
 
+
+see pic
+
+
 [ Note: I’ve deliberately set my Mac to show hidden files hence you can see a  ‘ .DS_Store file’   ignore this file, its just a Mac thing. ]
 This is just a directory or folder. There is not Git version control attached to this directory.
+
 To add Git to this directory, thus turning it into a repository or ‘repo’ we go through 2 steps
-CHANGE into the right directory   ($cd  )
+  * CHANGE into the right directory   `$cd`
 
-INITIALISE git in this directory  ($ git init)
+  * INITIALISE git in this directory  `$ git init`
 
-1) CHANGE into the right directory   ($cd  )
+1) CHANGE into the right directory  `$cd`
 
 Now open up your terminal and type
-$ cd ~     (to go change the directory ‘cd’ to the home ‘~’)
-$ ls      (to list the directories and folders in this directory)
+`$ cd ~`     (to go change the directory ‘cd’ to the home ‘~’)
+
+`$ ls  `    (to list the directories and folders in this directory)
+
 now in my machine I want to go to a directory inside the Desktop so
-$ cd Desktop
-$ ls (ls means ‘list the directories and files’. You should see Desktop)
-$cd “Coding Training”   (cd means ‘change directory’)
-$cd “Community Programming Projects” 
-$cd CommunityTechLiverpool   (no “ quotes ” as no spaces in the name)
-$ clear   (this clears the terminal; but you can still scroll back up)
-Alternatively on a Mac and some other OS’s, enter   $ cd  as before (don't’ forget a space after cd). Then visually drag the folder you want to change to in the ‘finder’ (or windows explorer) Hopefully this will automatically have generated the absolute directory path. Now hit enter as before.
+
+`$ cd Desktop`
+
+`$ ls` (ls means ‘list the directories and files’. You should see Desktop)
+
+`$cd “Coding Training”`   (cd means ‘change directory’)
+
+`$cd “Community Programming Projects”` 
+
+`$cd CommunityTechLiverpool`   (no “ quotes ” as no spaces in the name)
+
+`$ clear`   (this clears the terminal; but you can still scroll back up)
+
+Alternatively on a Mac and some other OS’s, enter `$ cd` as before (don't’ forget a space after cd). Then visually drag the folder you want to change to in the ‘finder’ (or windows explorer) Hopefully this will automatically have generated the absolute directory path. Now hit enter as before.
 
 
 
-
+see pic
 
 
 
 
 
 2) INITIALISE git in this directory  ($ git init)
-$ git init
+
+`$ git init`
 you should get a response with the words
-Initialized empty Git repository in …..
+
+`Initialized empty Git repository in …..`
+
 like this
+
+
+
+
+see pic
+
 
 
 
 And if we now look in our directory using the standard Mac GUI we see a .git directory
 This is where the actual git management and control resides.
 
+
+
+see pic
+
+
+
 But note the full stop or period. This indicates that its a hidden directory. I’ve enabled hidden directories just so we can see it.  If we go back to how we would normally see our files,  Git ‘disappears’.
 
-Whats your Status commander? 
+
+see pic
+
+
+
+## Whats your Status commander? 
 
 Using the command line ($ git status) we can see where git is up to
 
-$ git status    
+`$ git status`
 (which for a brand new repo should respond with the words )
 
 
+
+see pic
 
 
 
@@ -548,44 +590,63 @@ So far so good, we’ve made a new git repo, checked its status. But theres noth
 Lets put some files and a directory to our empty repo called ‘communityTechLiverpool”
 
 
-if we $ git status  
+
+see pic
 
 
 
+if we `$ git status`
 
 
 
-Whats happening?  Why isn’t git saving it?
+see pic
+
+
+####Whats happening?  Why isn’t git saving it?
 
 If we read the status report it tells us that our files and folder aren't ‘staged’. There are three areas in Git that files pass through:
 
 
 1) Working area
 
-This is the normal directory your files reside in.
-Git knows they are there but isn't monitoring them
+  This is the normal directory your files reside in.
+
+  Git knows they are there but isn't monitoring them
 
 2) Staging area
 
-You ‘add’ your files to Git. Now Git is monitoring your files but will tell you that you haven't committed them. 
-Your saying I have files, but they aren't ready yet  The code isn't at a logical point where it makes sense to commit to a change just yet. Say you were making a change in the CSS to make a button red colour. You wouldn’t want to commit the file when you've typed in “background: re ” . You’d want to put ‘red’ in. 
+  You ‘add’ your files to Git. Now Git is monitoring your files but will tell you that you haven't committed them. 
+
+  Your saying I have files, but they aren't ready yet  The code isn't at a logical point where it makes sense to commit to a change just yet. Say you were making a change in the CSS to make a button red colour. You wouldn’t want to commit the file when you've typed in “background: re ” . You’d want to put ‘red’ in. 
 
 3) Repository
 
-Now final you do a commit. Now your satisfied that you've made a sensible logical change to the code. (e.g. “background: red”) 
-In this diagram we see that index.html and style.css have beed added to the staging area. They are being tracked by Git. But only index.html is committed. Style.css hasn’t yet reached a logical unit of change where it makes sense to commit the style.css code to the repository.
+  Now final you do a commit. Now your satisfied that you've made a sensible logical change to the code. (e.g. “background: red”) 
+
+  In this diagram we see that index.html and style.css have beed added to the staging area. They are being tracked by Git. But only index.html is committed. Style.css hasn’t yet reached a logical unit of change where it makes sense to commit the style.css code to the repository.
 
 
 
-Add your files to the Stage
+
+see pic
+
+
+
+## Add your files to the Stage
 
 We decide that it makes sence to add all our files to Git, so we 
 
-$ git add directory_name/   (as is this case)
+`$ git add directory_name/`   (as is this case)
 
 or
 
-$git add filename      		(more typically)
+`$git add filename`       	(more typically)
+
+
+
+
+see pic
+
 
 
 
@@ -593,36 +654,63 @@ $git add filename      		(more typically)
 Now Git has placed our directory with its contents into the staging area.
 
 But we’ve still not finished, we need to commit!
-Don’t forgit, now Commit !
+
+
+
+## Don’t forgit, now Commit !
 Suppose were satisfied that we’ve completed a logical change in the code in one or more of our files. In this case were happy that our images of musicians is acceptable for now.
 
-$ git commit -m “description goes here”
+`$ git commit -m “description goes here”`
 
+
+see pic
 
 
 Its normal to check that everything is ok so we git status again
 
 
+see pic
+
+
+
 Now we've made one commit, but normally there would be many more. To see this history, or log of commits its just 
 
-$ git log
+`$ git log`
+
+
+see pic
 
 
 we see that there only a history of one commit at the moment. Recalling our files 
 
+
+see pic
+
+
+
 Now if we now change a file, lets say the index.html file and then save it 
 
-git status
+`git status`
 
 
 
 we see git has noticed the change, but exactly what has changed? Lets look at ‘diff’
-What a diff erence a git makes
+
+
+## What a diff erence a git makes
 If we recall our earlier picture of the different ares, working, stage and repository
+
+
+see pic
+
 
 Its sometimes useful to be able to see the differences between code thats in one area say the working area and the staged area.  For example:
 
-$ git diff     shows the differences between working and staged areas
+`$ git diff `    shows the differences between working and staged areas
+
+
+
+see pic
 
 
 
@@ -630,32 +718,46 @@ Another form of diff is when its used to compare the difference between two comm
 Taking our change above our index.html file is currently modified, put has not been added to the staging area.
 
 Hence we 
-$ git add index.html
+`$ git add index.html`
 
 then we will commit it
-$ git commit -m “added comment to demonstrate file change”
+`$ git commit -m “added comment to demonstrate file change”`
 
-so were good to go!  Now if we look at our commit history we should see 2 commits, the initial one when the files were created and the change we just made, lest check with $ git log 
+so were good to go!  Now if we look at our commit history we should see 2 commits, the initial one when the files were created and the change we just made, lest check with `$ git log `
+
+
+
+see pic
+
+
+
 
 
 
 
 Indeed we have 2 commits !But whats the difference between those commits, the actual code differences?
 
-$ git diff [first commit number ] [second commit number] 
+`$ git diff [first commit number ] [second commit number] `
 
 
 
-Promote your Remote
+
+see pic
+
+
+
+
+
+## Promote your Remote
 Lets re-cap thus far we’ve 
 
-Initialised a new Git repository
-Understood that there are three areas for Git, working, staging and repository
-added files to the staging area
-Committed files to repository
-changed a file and looked at the log of commits
-looked at differences between working and staged areas
-looked at the differences between two committed files 
+  * Initialised a new Git repository
+  * Understood that there are three areas for Git, working, staging and repository
+  * added files to the staging area
+  * Committed files to repository
+  * changed a file and looked at the log of commits
+  * looked at differences between working and staged areas
+  * looked at the differences between two committed files 
 
 phew!… 
 However all our efforts have been on our local computer, the git that sits on our own machine.
