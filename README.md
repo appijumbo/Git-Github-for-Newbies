@@ -98,7 +98,6 @@ ___
   2 [“What are the other differences between the Mac version and the Windows version: As at the time of writing (version 0.8b) ... features from the Mac version are missing from the Windows port….{including} Listing & creating projects on Bitbucket, Stash and GitHub”](https://www.sourcetreeapp.com/faq/)
 
   3 “A purpose is non-commercial only if it is in no manner primarily intended for or directed toward commercial advantage or private monetary compensation.
-
   Examples of non-commercial purposes:you are using the SOFTWARE to work on open-source projects….Examples of commercial purposes, i.e. when you will need a Commercial License:...using the SOFTWARE in your spare time to manage the website source code of your local football club and you are getting paid for that.”
 
   4 [“best suited for professional teams working on big projects”](http://www.freshtechtips.com/2015/03/git-client-windows-mac-linux.html)
