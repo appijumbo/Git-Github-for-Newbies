@@ -550,7 +550,7 @@ licensing
 When you create a new repository for your project in GitHub you may include a software license. As a starting point, Github has created a website to help developers choose a license http://choosealicense.com.
 
 gitnore
-You may want to ignore file. To do this use the .gitnore file [https://git-scm.com/docs/gitignore ]  Have a look at https://www.gitignore.io for aoutomated ignoring of typical files found in operation systems, for example .DS_Store [see http://sourabhbajaj.com/mac-setup/Git/gitignore.html for example]
+You may want to ignore file. To do this [use the .gitnore file](https://git-scm.com/docs/gitignore) and [use gitnore for aoutomated ignoring of typical files](https://www.gitignore.io) found in operation systems, [for example .DS_Store]( http://sourabhbajaj.com/mac-setup/Git/gitignore.html for example)
 
 readme
 This is a description of the project and perhaps how people can get involved or other useful information point for people interested in the project point of view, not simply a user.
@@ -610,8 +610,8 @@ Only when the development branch is considered ‘stable’ will it be merged in
 
 
 
-Click on ‘pull-request’, and then changing the branch range and destination repository . Then click on the pull request button, enter a description and create the pull-request [https://help.github.com/articles/creating-a-pull-request/ ]
-Note that even though you may have forked your repo, and now ‘own’ that fork Github rembers its history, and you can alwsy do pull-requests back to the original repo. This is called ‘Creating a pull request from a fork’ [https://help.github.com/articles/creating-a-pull-request-from-a-fork/ ]
+Click on ‘pull-request’, and then changing the branch range and destination repository . Then click on the pull request button, enter a description and [create the pull-request](https://help.github.com/articles/creating-a-pull-request/)
+Note that even though you may have forked your repo, and now ‘own’ that fork Github rembers its history, and you can alwsy do pull-requests back to the original repo. This is called [‘Creating a pull request from a fork’](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 
 The way of the git Master branch
 Change to the branch you want to merge to	
@@ -692,5 +692,5 @@ Resources
 16. [“GitHub and Git Foundations”](http://bit.ly/2aXfzCu)
 17. [Intland Software: Centralized vs Distributed Version](https://www.youtube.com/watch?v=_yQlKEq-Ueg)
 18. [Tutorial on Git Workflows](https://www.atlassian.com/git/)
-19. [Tim Pettersen Git Workflows:](https://www.youtube.com/watch?v=O4SoB3TFkjA)
+19. [Tim Pettersen Git Workflows](https://www.youtube.com/watch?v=O4SoB3TFkjA)
 20. [Git Workflows: Episode 77 of “The Web Platform podcast” reviewed “Project Management and Git Workflows”](http://thewebplatformpodcast.com/77-project-management-and-git-workflows)
