@@ -358,9 +358,11 @@ Newbie Tip: don't actually type in the $ symbol, its just means normal user and 
 The easiest way for Mac and Windows users is to [install Github Desktop](https://desktop.github.com) . This is a Git GUI from the company Github, but it will install Git onto your machine. We’re not using this particular Git GUI in the rest of the tutorial because its not available for Linux (rather bizarrely in my humble opinion).
 
 Now open your terminal and enter
+
 `$  git –-version`  (note the double hyphen i.e. -- )
     
-You should see a version number higher than 1.7.10, in this case 2.7.4; now go to “GitKraken; a cracking way to see git”
+You should see a version number higher than 1.7.10, in this case 2.7.4; 
+now go to “GitKraken; a cracking way to see git”
 
 
 see pic
