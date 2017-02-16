@@ -97,13 +97,6 @@ Reviewing
   a simple table for Git GUI candidate table may be created
   
 
-
-YES
-YES
-
-YES
-unsure
-
   
            |Github Desktop|SourceTree|SmartGit|GitKraken |Git-cola|
 -----------|--------------|----------|--------|----------|--------|
@@ -111,7 +104,7 @@ Open Source|      No      |    No    |   No   | No(see 5)|   Yes  |
 Free for community use|Yes|Yes|Yes(non-commercial)|Yes|Yes |
 Free for professional use|Yes|Yes(need to register)|No(ro $7/mth|No(pro $6/mth)|Yes|
 Used in professional settings|Yes|Yes||Yes|unsure|
-fffffffffff|ffffffffffffff|FfffffffFf|Ffffffff|Ffffffffff|Ffffffff|
+Considered easy to use|Yes|Yes(see 1)|No(see 4)|unsure|No(see 6)|
 fffffffffff|ffffffffffffff|FfffffffFf|Ffffffff|Ffffffffff|Ffffffff|
 fffffffffff|ffffffffffffff|FfffffffFf|Ffffffff|Ffffffffff|Ffffffff|
 fffffffffff|ffffffffffffff|FfffffffFf|Ffffffff|Ffffffffff|Ffffffff|
