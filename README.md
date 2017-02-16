@@ -911,43 +911,48 @@ To merge a remote Github repository thats called ‘upstream’ and has a branch
 ## Git Workflows
 The following is a summary of workflow approaches based of [Tim Pettersen’s 1 hour presentation](https://www.youtube.com/watch?v=O4SoB3TFkjA)  tip: If your short on time, skip the preamble and go to 8min 40s. Tim is a senior developer from Atlassian who make SourceTree and other software tools.
 
-Basic ideas
-Workflow is all about stability, traceability and isolating code under development.
+#### Basic ideas
+  * Workflow is all about stability, traceability and isolating code under development.
 
-If open-source, use forking, otherwise use branching.
+  * If open-source, use forking, otherwise use branching.
 
-The ‘best ‘ work flow depends on what the product is, the team structure and the impact of bugs for example.
+  * The ‘best ‘ work flow depends on what the product is, the team structure and the impact of bugs for example.
 
-Branch everything; feature branch, bugfix, ‘hotfix’ (a ‘live in the field’ bug) and a document change
-Use a naming convention 
+  * Branch everything; feature branch, bugfix, ‘hotfix’ (a ‘live in the field’ bug) and a document change
+
+#### Use a naming convention 
 feature/ 	bugfix/ 		hotfix/  		doc/     
 like bugfix/issue_number-description  e.g. bugfix/abcd1-dark-theme
-Development branch
+
+
+#### Development branch
 Consider the cases when features that whilst independently work fine, when merged to the main branch are buggy because they have dependancies between the new features.
 
 Thus before releasing code to the main master branch (which is whats used in production and is what the customer sees), features are added to the development branch, which is the main branch the developers use. Once stable this branch is merged to the master branch.
-Merge strategies
+
+#### Merge strategies
 Typically the ‘merge commit’ is used, but also the ‘rebase (fast-forward)’
 
 Rebasing is where the master branch has some features you want to merge into your developing feature branch but you don't want all the commits from many other coders that would be generated because they would complicate your own commit log on the feature branch your developing.
 
 The ‘tip’ of the master is used to ‘rebase’ the merge instead; use with caution.
-Use Pull-requests to instigate code reviews 
+
+#### Use Pull-requests to instigate code reviews 
 Use two coders to review code, don’t just use auto testing tools !
 
-better code
-team – shared knowledge
-educates devs
-team ownership of code
+  * better code
+  * team – shared knowledge
+  * educates devs
+  * team ownership of code
 
 
-Conclusion and Summary
+## Conclusion and Summary
 Having covered the basics of Git and Github theres no excuse to use it when you next write code. In fact Github are looking at expanding the use of Git beyond just code [law, fonts, Gregorian chants] (https://github.com/CMAA/nova-organi-harmonia), but thats another story.
 
 Now git coding ! 
 
 
-Resources
+## Resources
 
 1.  [Git-scm](https://git-scm.com)
 2.  [Pro-git: A superb free online book on Git](https://git-scm.com/book/en/v2)
