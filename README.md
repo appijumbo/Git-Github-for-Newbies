@@ -110,7 +110,7 @@ Considered easy to use|Yes|Yes (see 1)|No (see 4)|unsure|No(see 6)|
 Can use command line entry|No|Yes|Yes|No|Yes|
 Mac|Yes|Yes (see 2)|Yes|Yes|Yes|
 Windows|Yes|Yes|Yes|Yes|Yes|
-Linu|No|No|Yes|Yes (deb/Ubuntu)|Yes|
+Linux|No|No|Yes|Yes (deb/Ubuntu)|Yes|
 
 
   1 [“Perfect for beginners”](http://www.freshtechtips.com/2015/03/git-client-windows-mac-linux.html)
