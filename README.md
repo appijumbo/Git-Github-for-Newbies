@@ -351,26 +351,35 @@ You need to open up your terminal app (Mac / Linux), in windows this is called t
 
 ## To be hip, get Git
 So you’ve created a Github account, but remember you still don’t necessary have Git on your local machine. The Git website provides detailed [instructions for installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git/) but hopefully the paragraphs below will make it easier for newbies.
+
 Newbie Tip: don't actually type in the $ symbol, its just means normal user and visually shows where the where to type in the commands
 
 ####Mac and Windows
 The easiest way for Mac and Windows users is to [install Github Desktop](https://desktop.github.com) . This is a Git GUI from the company Github, but it will install Git onto your machine. We’re not using this particular Git GUI in the rest of the tutorial because its not available for Linux (rather bizarrely in my humble opinion).
 
 Now open your terminal and enter
-	$  git –-version   (note the double hyphen i.e. -- )
+`$  git –-version`  (note the double hyphen i.e. -- )
     
-You should see a version number higher than 1.7.10, in this case 2.7.4
+                    You should see a version number higher than 1.7.10, in this case 2.7.4
 
-Now to “GitKraken; a cracking way to see git”
+                    Now to “GitKraken; a cracking way to see git”
+
+
+see pic
+
+
 
 
 ####Linux
 First you’ll need to know your administrator password. Second we will make the perhaps grandiose assumption for the moment that typically Linux users who are newbies, are likely to be running a Debian or Ubuntu derivative.  
+
 Use you desktop menu or shortcut key (try Ctrl+Alt+T)  to open up your terminal and type
-	$  git --version
+
+`$  git --version`
+
 if it returns a version number higher than 1.7.10 then skip to “GitKraken; a cracking way to see git”. Otherwise you need to install git by running the command
 
-$ sudo apt-get install git-all
+`$ sudo apt-get install git-all`
 
 And for [other Linux distributions](https://git-scm.com/download/linux)
 
