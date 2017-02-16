@@ -103,14 +103,14 @@ Reviewing
            |Github Desktop|SourceTree|SmartGit|GitKraken |Git-cola|
 -----------|--------------|----------|--------|----------|--------|
 Open Source|      No      |    No    |   No   | No(see 5)|   Yes  |
-Free for community use|Yes|Yes|Yes(non-commercial)|Yes|Yes |
-Free for professional use|Yes|Yes(need to register)|No(ro $7/mth|No(pro $6/mth)|Yes|
+Free for community use|Yes|Yes|Yes (non-commercial)|Yes|Yes |
+Free for professional use|Yes|Yes (need to register)|No (pro $7/mth)|No (pro $6/mth)|Yes|
 Used in professional settings|Yes|Yes||Yes|unsure|
-Considered easy to use|Yes|Yes(see 1)|No(see 4)|unsure|No(see 6)|
+Considered easy to use|Yes|Yes (see 1)|No (see 4)|unsure|No(see 6)|
 Can use command line entry|No|Yes|Yes|No|Yes|
-Mac|Yes|Yes(see 2)|Yes|Yes|Yes|
+Mac|Yes|Yes (see 2)|Yes|Yes|Yes|
 Windows|Yes|Yes|Yes|Yes|Yes|
-Linu|No|No|Yes|Yes(deb/Ubuntu)|Yes|
+Linu|No|No|Yes|Yes (deb/Ubuntu)|Yes|
 
 
   1 [“Perfect for beginners”](http://www.freshtechtips.com/2015/03/git-client-windows-mac-linux.html)
