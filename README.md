@@ -73,7 +73,7 @@ However for the purpose of this course I’ve aimed this at web dev newbies and 
    * What any new team members might use in future ?
    * How important is it thats its open source ?
    * Does it need to be entirely free to use or free for just say community projects only ?
-   * Is is popular in a commercial setting does it need to have command line access or can it be just be purely GUI focused ?
+   * Is is popular in a commercial setting does it need to have command line access or can it be just be purely GUI focused?
 
 Our clubs aim is to develop community projects and support newbies developing skills in a professional setting. Teaching one another is important; hence having the same Git GUI may well be advantageous. Projects will be community focused and need to be have as low as possible entry costs. Moreover we have no control over what platform future team members will be joining with.
 
@@ -84,6 +84,7 @@ Open source is great, but it must work well for newbie members
 It needs to be largely free, using the free version of a free/pro-paid business model is probably ok
 
 Reviewing
+
 [“Git-scm GUI Clients”](https://git-scm.com/download/gui/linux)
 
 [“10 Best Graphical Git Clients for Developers”](http://www.freshtechtips.com/2015/03/git-client-windows-mac-linux.html)
@@ -91,19 +92,19 @@ Reviewing
 [“Alternatives to SmartGit for all platforms”](http://alternativeto.net/software/smartgit/) is a simple table for Git GUI candidate table may be created
 
 
-1 [“Perfect for beginners”](http://www.freshtechtips.com/2015/03/git-client-windows-mac-linux.html)
+  1 [“Perfect for beginners”](http://www.freshtechtips.com/2015/03/git-client-windows-mac-linux.html)
 
-2 [“What are the other differences between the Mac version and the Windows version: As at the time of writing (version 0.8b) ... features from the Mac version are missing from the Windows port….{including} Listing & creating projects on Bitbucket, Stash and GitHub”](https://www.sourcetreeapp.com/faq/)
+  2 [“What are the other differences between the Mac version and the Windows version: As at the time of writing (version 0.8b) ... features from the Mac version are missing from the Windows port….{including} Listing & creating projects on Bitbucket, Stash and GitHub”](https://www.sourcetreeapp.com/faq/)
 
-3 “A purpose is non-commercial only if it is in no manner primarily intended for or directed toward commercial advantage or private monetary compensation.
+  3 “A purpose is non-commercial only if it is in no manner primarily intended for or directed toward commercial advantage or private monetary compensation.
 
-Examples of non-commercial purposes:you are using the SOFTWARE to work on open-source projects….Examples of commercial purposes, i.e. when you will need a Commercial License:...using the SOFTWARE in your spare time to manage the website source code of your local football club and you are getting paid for that.”
+  Examples of non-commercial purposes:you are using the SOFTWARE to work on open-source projects….Examples of commercial purposes, i.e. when you will need a Commercial License:...using the SOFTWARE in your spare time to manage the website source code of your local football club and you are getting paid for that.”
 
-4 [“best suited for professional teams working on big projects”](http://www.freshtechtips.com/2015/03/git-client-windows-mac-linux.html)
+  4 [“best suited for professional teams working on big projects”](http://www.freshtechtips.com/2015/03/git-client-windows-mac-linux.html)
 
-5 [“How can I open the command line from GitKraken?: GitKraken is not a front-end GUI for your command line; it’s a 100% standalone application”](https://www.gitkraken.com/faq)
+  5 [“How can I open the command line from GitKraken?: GitKraken is not a front-end GUI for your command line; it’s a 100% standalone application”](https://www.gitkraken.com/faq)
 
-6 [Git-Cola:](http://git-cola.github.io) is [“ideal for power users and tech ninjas”](http://www.freshtechtips.com/2015/03/git-client-windows-mac-linux.html) It’s easily available in Linux based software repositories, I’ve installed it both on Linux Mint and KDE Neon and KaOS (admittedly all Ubuntu based distros) but with no problems.  Git-cola comes in two parts, the main ‘cola’ part that lets you do commands like commit see the console and status etc, and the ‘DAG’ drawing part which shows the log history and a graphical representation of the branching. Its an excellent endeavour from its creators however from a newbie perspective perhaps not polished enough as of 2016, for example it would seem you still need to initialise a repository using the command line.
+  6 [Git-Cola:](http://git-cola.github.io) is [“ideal for power users and tech ninjas”](http://www.freshtechtips.com/2015/03/git-client-windows-mac-linux.html) It’s easily available in Linux based software repositories, I’ve installed it both on Linux Mint and KDE Neon and KaOS (admittedly all Ubuntu based distros) but with no problems.  Git-cola comes in two parts, the main ‘cola’ part that lets you do commands like commit see the console and status etc, and the ‘DAG’ drawing part which shows the log history and a graphical representation of the branching. Its an excellent endeavour from its creators however from a newbie perspective perhaps not polished enough as of 2016, for example it would seem you still need to initialise a repository using the command line.
 
 ###Comparison of candidate GUI’s
 Having picked candidate GUI’s, the truth is that there isn’t a perfect solution for a newbie team that need to use all platforms and ideally support open source.  All the GUI’s require Mac 10.9 or Windows 7 and above so those on a tight budget might be left out. However one could install a free Linux Debian/Ubuntu distro and switch to GitKraken which might be acceptable for newbies or push comes to shove, then back to the command line which might not be a bad thing.
@@ -133,9 +134,7 @@ Several free popular online courses on Git (though Code School has a paid ‘pro
   * Learning is a very personal thing and the main take-away I got from these courses was that no single one ‘did it’ for me, but they all enhanced my understanding and were well constructed. It took a number of sessions before Git reasonably ‘clicked’.
   Typically one has to do a course a number of times or do a couple of different courses presented in different ways for Git to resolve in ones mind. Remember its not time wasted, Git is ubiquitous in the coding world.
 
-  * CodeSchool: TryGit: “Got 15 minutes and want to learn Git?”
-  
-  * This is [the strap-line for TryGit](https://try.github.io/levels/1/challenges/1) I’d strongly urge you to do this course first simply because its an excellent 15 minutes well spent. It’s feature on the [Git website itself](https://git-scm.com)
+  * [CodeSchool: TryGit:](https://try.github.io/levels/1/challenges/1) “Got 15 minutes and want to learn Git?” This is the strap-line for TryGit. I’d strongly urge you to do this course first simply because its an excellent 15 minutes well spent. It’s feature on the [Git website itself](https://git-scm.com)
   
   * Codeschool also have made more in-depth Git courses including “Git real” 
   
@@ -152,8 +151,8 @@ Git-it itself is open source and it’s stored in a public access repository. An
 Versions for 64bit Mac (44.3 MBGit-it-Mac-x64.zip), Windows (117 MBGit-it-Win-ia32.zip) or Linux (Git-it-Linux-x64.zip) [may be downloaded](https://github.com/jlord/git-it-electron/releases). I’ll be using this course as a frame to my own Git tutorial also including the use of the Git GUI Gitkraken (see below).
 
   * [Udacity ‘How to Use Git and GitHub’](https://www.udacity.com/course/how-to-use-git-and-github--ud775) Time to do course: approx 18hrs This is the longest course on the list by far, but I definitely would recommend you do it if you can spare the time. Udacity has a slightly more academic way of covering topics. Thats not to say its irrelevant, it just less ‘wham-bam’ more get your brain in gear then step-by-step.
-Udacity always provide excellent video and course note downloads plus other resources. In this course one of the most valuable bits for some might be the ‘concept maps’ used to build up a picture of where all bits of Git fit in
-Another nice touch to the course is that they you use reflective learning techniques in the course. As you go along you save your thoughts in a simple .txt log and these become versions that you store in Git itself, giving you even more practice.
+  Udacity always provide excellent video and course note downloads plus other resources. In this course one of the most valuable bits for some might be the ‘concept maps’ used to build up a picture of where all bits of Git fit in
+  Another nice touch to the course is that they you use reflective learning techniques in the course. As you go along you save your thoughts in a simple .txt log and these become versions that you store in Git itself, giving you even more practice.
 
   * Udacity regularly asks questions and provides quite good automated feedback on your answer.
 One minor irritation is a couple of times you have to download and install a file to simulate a commit from someone or to simulated Github repository activity. Whilst the idea is sound, its quite distracting and I hope Udacity tweaks this part of the course in future to make the lesson closer to the real thing.
@@ -162,7 +161,6 @@ One minor irritation is a couple of times you have to download and install a fil
 To be honest picking a single one isn’t what I’d recommend, all of them are very good in their own way. A lot depends on the environment your learning in, time availability etc. If push came to shove and your very short on time I’d say do the nodeschool “git-it” course. However if your like me and the fast pitch approach isn’t enough to stick in your head then add in the Udacity course or the Git-real course from CodeSchool.Notable Quality Youtube Tutorials 
 
 Youtube provides some excellent tutorials including: [“GitHub for Noobs” by Travis Neilson](http://bit.ly/2buQQ9Z)
-
 Travis is a front-end developer with a superb channel aimed at the creative arty types who also need to do coding. He now works for Google and has presented some videos on Adobe’s channel. If your a ‘creative’, as in art, that needs to code his channel he’s a great starting point. He presents in a very entertaining and articulate way four videos 5 to 25 minutes each.
 
 [“Git Video Tutorial” by Derek Banas](http://bit.ly/2aYkkyw)
@@ -179,11 +177,20 @@ There are many cheat sheets on Git and here’s just a few of them. I’d recomm
 [“Git Cheat sheet” by Tower](https://www.git-tower.com/blog/git-cheat-sheet/)
 
 ###Books
-If your really keen and want to get the possibly best ebook on Git then the Git Pro-git book https://git-scm.com/book/en/v2 is what you want. Its not aimed at web dev newbies but you might want to be aware of it and at least peruse the introduction and contents pages to get an idea of how big Git is. However I’d suggest perhaps looking at this book after you’ve mastered the basics as it might be a bit too overwhelming for the newbie (its 364 pages long!).
+If your really keen and want to get the possibly best ebook on Git then the [Git Pro-git book](https://git-scm.com/book/en/v2) is what you want. Its not aimed at web dev newbies but you might want to be aware of it and at least peruse the introduction and contents pages to get an idea of how big Git is. However I’d suggest perhaps looking at this book after you’ve mastered the basics as it might be a bit too overwhelming for the newbie (its 364 pages long!).
 The book is available for download in pdf, epub, mobi or html formats. 
 
-###Chapters include:
-Getting Started, Git Basics, Git Branching, Git on the Server, Distributed Git, GitHub, Git Tools, Customizing Git, Git and Other Systems, Git Internals
+####Chapters include:
+  * Getting Started
+  * Git Basics
+  * Git Branching
+  * Git on the Server
+  * Distributed Git
+  * GitHub
+  * Git Tools
+  * Customizing Git
+  * Git and Other Systems
+  * Git Internals
 
 ###Podcast and Tutorials about Git Workflows
 Once you've installed Git and mastered the basics then exactly how should your team employ Git? 
@@ -269,9 +276,10 @@ Alternatively it should be easily found in the menu;I suggest you keep your term
 
 
 To be hip, get Git
-So you’ve created a Github account, but remember you still don’t necessary have Git on your local machine. The Git website provides detailed [instructions for installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) but hopefully the paragraphs below will make it easier for newbies.
-[Newbie Tip: don't actually type in the $ symbol, its just means normal user and visually shows where the where to type in the commands]
-Mac and Windows
+So you’ve created a Github account, but remember you still don’t necessary have Git on your local machine. The Git website provides detailed [instructions for installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git/) but hopefully the paragraphs below will make it easier for newbies.
+Newbie Tip: don't actually type in the $ symbol, its just means normal user and visually shows where the where to type in the commands
+
+####Mac and Windows
 The easiest way for Mac and Windows users is to [install Github Desktop](https://desktop.github.com) . This is a Git GUI from the company Github, but it will install Git onto your machine. We’re not using this particular Git GUI in the rest of the tutorial because its not available for Linux (rather bizarrely in my humble opinion).
 
 Now open your terminal and enter
@@ -282,7 +290,7 @@ You should see a version number higher than 1.7.10, in this case 2.7.4
 Now to “GitKraken; a cracking way to see git”
 
 
-Linux
+####Linux
 First you’ll need to know your administrator password. Second we will make the perhaps grandiose assumption for the moment that typically Linux users who are newbies, are likely to be running a Debian or Ubuntu derivative.  
 Use you desktop menu or shortcut key (try Ctrl+Alt+T)  to open up your terminal and type
 	$  git --version
@@ -294,7 +302,7 @@ And for [other Linux distributions](https://git-scm.com/download/linux)
 
 
 
-Command Line love
+####Command Line love
 You can change how your terminal looks, and how it shows off your git. For example it can be made to could look like this 
 
 It has username, the git branch I’m on (more on this later) and the directory I’m currently in, but also they are different colours. 
@@ -302,7 +310,7 @@ It helpful and an optional extra. If you don’t want to do this right now then 
 Watch the video “Setting Up Your Workspace on Windows - How to Use Git and GitHub” from Udacity. There is a Mac/ Linux version and a Windows version.
 Here’s a few details, but I’d recommend viewing the video and getting the resource notes from Udacity.
 
-[Mac](https://www.youtube.com/watch?v=s_eFuGauy6k)
+####[Mac](https://www.youtube.com/watch?v=s_eFuGauy6k)
 Open up a terminal and type    $ nano bash_profile
 this will open up your bash_profile nano , which is a basic text editor built into Linux and OSX.
 Add the following to your profile 
@@ -314,7 +322,7 @@ was because I use the Brackets IDE [http://brackets.io ] development tool.  If y
 If you use [Sublime Text](https://www.sublimetext.com)  refer to [Ashley Nolan’s post](https://ashleynolan.co.uk/blog/launching-sublime-from-the-terminal) or [Udacity’s post](https://www.udacity.com/wiki/ud775/sublime) using ‘subl’
 Save your bash_profile file; which in Nano is ‘CTRL’ + ‘O’ then exit ‘CTRL’ + ‘X’
 
-Linux
+####Linux
 
 First make your hidden files visible, this depends on what desktop you have. If its KDE your likley using Dolphin, so to show hidden files its ‘CTRL’  +  ‘ . ’. 
 For other desktops its often ‘CTRL’ + ‘H’.  
@@ -322,7 +330,7 @@ the bash_profile file is typically located in the Unix System Resources director
 Windows
 Things are slightly different  different on Windows. You define how your IDE opens a different way for starters. Please see [Udacitiy’s excellent course for details](https://www.youtube.com/watch?v=IfLhXM4RnB4)
 
-Your Global Git identity
+####Your Global Git identity
 
 Setting up your identity on Git is important. [From Git’s own handbook](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 The first thing you should do when you install Git is to set your user name and email address. This is important because every Git commit uses this information, and it’s immutably baked into the commits you start creating:
@@ -331,7 +339,7 @@ $ git config --global user.name "John Doe"
 
 $ git config --global user.email johndoe@example.com
 
-GitKraken; a cracking way to see git
+####GitKraken; a cracking way to see git
 
 
 As of August 2016  GitKraken (the free versions) is available for Windows 7+, Mac OSX 10.8+ , Linux (specifically Ubuntu LTS 12.04+, Debian 8+, Fedora 21+), so many users should be covered.
