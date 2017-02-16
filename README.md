@@ -293,7 +293,7 @@ To discuss how to use git, with the following (hopefully) memorable headings of:
   
   
   
-## 1 - Github; a hub where pros show code
+## Github; a hub where pros show code
 
 As with any other site, you need to enter your name, email address etc create a basic profile. Many coding sites use your Github account so make sure your details are correct.
 You might want to watch this [a 40 second guide to signing up to Github]([https://www.youtube.com/watch?v=ezxRcdJ8glM), made by Github.
