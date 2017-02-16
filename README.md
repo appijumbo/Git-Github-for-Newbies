@@ -296,11 +296,21 @@ To discuss how to use git, with the following (hopefully) memorable headings of:
 ## Github; a hub where pros show code
 
 As with any other site, you need to enter your name, email address etc create a basic profile. Many coding sites use your Github account so make sure your details are correct.
-You might want to watch this [a 40 second guide to signing up to Github]([https://www.youtube.com/watch?v=ezxRcdJ8glM), made by Github.
+You might want to watch this [a 40 second guide to signing up to Github](https://www.youtube.com/watch?v=ezxRcdJ8glM), made by Github.
 Usually for a newbie to Github, the free unlimited public option is fine.
 
 
+
+pic here
+
+
+
 Click as appropriate or just skip
+
+
+
+pic here
+
 
 
 You need to verify your email address before continuing
@@ -309,31 +319,37 @@ Congratulations, if you've got to this screen you know have a Github account !
 I’d suggest clicking the ‘Read the Guide’ If your new to Github, its a reasonably good guide. However if its a bit confusing don’t worry, it should make more sense as you interact with Github. 
 
 Now we'll create our very first repository. 
-Only if your creating a brand new repository inside Github, thats doesn't exist anywhere else, then click the ‘Initialize this repository with a README’ otherwise don’t bother. In this case its brand new so its clicked.
+Only if your creating a _brand new_ repository inside Github, thats doesn't exist anywhere else, then click the ‘Initialize this repository with a README’ otherwise don’t bother. In this case its brand new so its clicked.
+
+
+
+pic here
+
+
 
 
 Now we have our repository. If we click on the ‘clone or download’ button we can see the HTTPS URL link that we can use to connect this ‘remote’ to our local installation of Git on our machine. 
 
 
 
+pic here
+
 
 
 ###Where to issue commands
 You need to open up your terminal app (Mac / Linux), in windows this is called the Command Prompt 
-   * Mac
-Open up your apps
 
-then click on ‘other’ and select the terminal 
+   * Mac
+  Open up your apps, then click on ‘other’ and select the terminal 
 
    * Linux
-
-Typically the keyboard shortcut is CTRL+ T  
-Alternatively it should be easily found in the menu;I suggest you keep your terminal on the desktop as e.g. a shortcut or on a dock.
+  Typically the keyboard shortcut is CTRL+ T  
+  Alternatively it should be easily found in the menu;I suggest you keep your terminal on the desktop as e.g. a shortcut or on a dock.
 
    * [Windows](http://www.intowindows.com/command-prompt-as-administrator-in-windows-10/)
 
 
-To be hip, get Git
+## To be hip, get Git
 So you’ve created a Github account, but remember you still don’t necessary have Git on your local machine. The Git website provides detailed [instructions for installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git/) but hopefully the paragraphs below will make it easier for newbies.
 Newbie Tip: don't actually type in the $ symbol, its just means normal user and visually shows where the where to type in the commands
 
