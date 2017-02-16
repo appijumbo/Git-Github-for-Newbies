@@ -547,7 +547,7 @@ or PULL files     $ git pull <remote name> <branch name>
 $ git pull origin master
 
 licensing
-When you create a new repository for your project in GitHub you may include a software license. As a starting point, Github has created a website to help developers choose a license http://choosealicense.com.
+When you create a new repository for your project in GitHub you may include a software license. As a starting point, Github has created a website to help developers [choose a license](http://choosealicense.com)
 
 gitnore
 You may want to ignore file. To do this [use the .gitnore file](https://git-scm.com/docs/gitignore) and [use gitnore for aoutomated ignoring of typical files](https://www.gitignore.io) found in operation systems, [for example .DS_Store]( http://sourabhbajaj.com/mac-setup/Git/gitignore.html for example)
