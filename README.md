@@ -168,23 +168,28 @@ Several free popular online courses on Git (though Code School has a paid ‘pro
 Learning is a very personal thing and the main take-away I got from these courses was that no single one ‘did it’ for me, but they all enhanced my understanding and were well constructed. It took a number of sessions before Git reasonably ‘clicked’.
 Typically one has to do a course a number of times or do a couple of different courses presented in different ways for Git to resolve in ones mind. Remember its not time wasted, Git is ubiquitous in the coding world.
 
-####[CodeSchool: TryGit:](https://try.github.io/levels/1/challenges/1) “Got 15 minutes and want to learn Git?” This is the strap-line for TryGit. I’d strongly urge you to do this course first simply because its an excellent 15 minutes well spent. It’s feature on the [Git website itself](https://git-scm.com)
-  
+####[CodeSchool: TryGit:](https://try.github.io/levels/1/challenges/1) 
+“Got 15 minutes and want to learn Git?” This is the strap-line for TryGit. 
+I’d strongly urge you to do this course first simply because its an excellent 15 minutes well spent. It’s feature on the [Git website itself](https://git-scm.com)
 Codeschool also have made more in-depth Git courses including “Git real” 
   
-####[‘Git real’](http://gitreal.codeschool.com) Time to do course: approx 3 hours
-  
+####[‘Git real’](http://gitreal.codeschool.com)
+Time to do course: approx 3 hours
+
 CodeSchool do a fantastic job of making an otherwise dull subject actually seem exiting ! There videos are far from dull and get across the key points well. Added to that you can download the video as a pdf of slides.
 
-####[gitReal 2 is also worth looking at](http://gitreal2.codeschool.com/levels/1) for more advanced users. With Code School you have a simulated Git terminal that you enter your commands into. Though it works very well, perhaps it would be nicer to actually install Git and use a real Github account as part of your learning curve. That quibble aside, it’s well worth doing this course.
+####[gitReal 2 is also worth looking at](http://gitreal2.codeschool.com/levels/1) 
+for more advanced users. With Code School you have a simulated Git terminal that you enter your commands into. Though it works very well, perhaps it would be nicer to actually install Git and use a real Github account as part of your learning curve. That quibble aside, it’s well worth doing this course.
 
-####[Nodeschools ‘Git-it’](https://github.com/jlord/git-it-electron) (the new Electron desktop version) Time to do course: 1 hours I’d very much recommend doing this course because its an app that you download. You can keep the app an your desktop an dip into the course if your memory goes, plus its not too long to do 
+####[Nodeschools ‘Git-it’](https://github.com/jlord/git-it-electron)
+(the new Electron desktop version) Time to do course: 1 hours I’d very much recommend doing this course because its an app that you download. You can keep the app an your desktop an dip into the course if your memory goes, plus its not too long to do 
 
 Git-it itself is open source and it’s stored in a public access repository. Any coder may contribute to it on Github. [Some instructions on how to download and install Git](https://github.com/jlord/git-it-electron/issues/121#issue-149747488)
 
 Versions for 64bit Mac (44.3 MBGit-it-Mac-x64.zip), Windows (117 MBGit-it-Win-ia32.zip) or Linux (Git-it-Linux-x64.zip) [may be downloaded](https://github.com/jlord/git-it-electron/releases). I’ll be using this course as a frame to my own Git tutorial also including the use of the Git GUI Gitkraken (see below).
 
-####[Udacity ‘How to Use Git and GitHub’](https://www.udacity.com/course/how-to-use-git-and-github--ud775) Time to do course: approx 18hrs This is the longest course on the list by far, but I definitely would recommend you do it if you can spare the time. Udacity has a slightly more academic way of covering topics. Thats not to say its irrelevant, it just less ‘wham-bam’ more get your brain in gear then step-by-step.
+####[Udacity ‘How to Use Git and GitHub’](https://www.udacity.com/course/how-to-use-git-and-github--ud775) 
+Time to do course: approx 18hrs This is the longest course on the list by far, but I definitely would recommend you do it if you can spare the time. Udacity has a slightly more academic way of covering topics. Thats not to say its irrelevant, it just less ‘wham-bam’ more get your brain in gear then step-by-step.
 
 Udacity always provide excellent video and course note downloads plus other resources. In this course one of the most valuable bits for some might be the ‘concept maps’ used to build up a picture of where all bits of Git fit in
 
