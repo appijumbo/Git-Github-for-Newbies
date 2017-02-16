@@ -42,15 +42,16 @@ But here’s the problem; they are your folders, your master projects, and you n
 Thus the real problem is managing the flow of information in an easy way that allows people to use the master ‘folder’. Ideally people should be able to make a copy or ‘clone’ and experiment with it in a sort of separate side-branch to the master. Then when its appropriate they can request any changes be pulled back into the original. Moreover an easy way to communicating information like requesting to pull in new changes into the original that didn't rely on multiple communication channels like emails or post-it notes would be highly advantageous.
 
 Thats what Git and Github combined together are for, only your doing things electronically of course not with real paper, but the same mental model applies.
-Keeping code organised
 
-###The very old way
+###Keeping code organised
+
+####The very old way
 One way of designing code is to constantly re-save your code with different version numbers onto a directory. Thats like having a filing cabinet with lots of folders, each folder representing a version of the code. But just like the paper analogy, there’s no easy method to collaborate, share code and keep track of which folder is ‘the’ master one. Your controlling the flow of information about the different copies and versions properly. This is like the folders in the cabinets model.
 
-###The old way of version control
+####The old way of version control
 The idea here is to have one central master version. Everyone project member can log into it but only one person at a time can make changes. However if the physical central server that holds the master dies then thats it, you've lost your master. This is called a ‘single point of failure’ Moreover communication is still an issue. This is like the old paper tracking method, with a log-book and one official master. This version control method is known as Centralised Version Control and its no longer the favoured way of doing version control. 
 
-###The modern way of version control: Git
+####The modern way of version control: Git
 Everyone on the project has a clone of the remote ‘repository’ where the code is stored on their local machine; yes everybody. This cloned repository (or just ‘repo’) is a clone of the programming code and also a clone of the organising information to control the project information flow. Typically a cloud based server like Github acts as the the remote repository (or just ‘remote’) for the project.
 Now if something goes wrong in the remote repository, the remote master can be reconstructed from everybody's local clone. There is now no central point of failure.  Moreover cloud based remote repositories like Github don't just store the code, they provide a means to communicate between programmers and thus the information flow about the project is greatly automated and eased.
 
