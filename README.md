@@ -85,12 +85,13 @@ It needs to be largely free, using the free version of a free/pro-paid business 
 
 Reviewing
 
-[“Git-scm GUI Clients”](https://git-scm.com/download/gui/linux)
+  * [“Git-scm GUI Clients”](https://git-scm.com/download/gui/linux)
 
-[“10 Best Graphical Git Clients for Developers”](http://www.freshtechtips.com/2015/03/git-client-windows-mac-linux.html)
+  * [“10 Best Graphical Git Clients for Developers”](http://www.freshtechtips.com/2015/03/git-client-windows-mac-linux.html)
 
-[“Alternatives to SmartGit for all platforms”](http://alternativeto.net/software/smartgit/) is a simple table for Git GUI candidate table may be created
+  * [“Alternatives to SmartGit for all platforms”](http://alternativeto.net/software/smartgit/) is a simple table for Git GUI candidate table may be created
 
+___
 
   1 [“Perfect for beginners”](http://www.freshtechtips.com/2015/03/git-client-windows-mac-linux.html)
 
@@ -318,7 +319,7 @@ Add the following to your profile
 
 Note: The last line   
 alias brackets="open -a /Applications/Brackets.app"  
-was because I use the Brackets IDE [http://brackets.io ] development tool.  If you use say [Atom](https://atom.io)  then you will have to change this line.
+for the [Brackets IDE](http://brackets.io) development tool.  If you use say [Atom](https://atom.io)  then you will have to change this line.
 If you use [Sublime Text](https://www.sublimetext.com)  refer to [Ashley Nolan’s post](https://ashleynolan.co.uk/blog/launching-sublime-from-the-terminal) or [Udacity’s post](https://www.udacity.com/wiki/ud775/sublime) using ‘subl’
 Save your bash_profile file; which in Nano is ‘CTRL’ + ‘O’ then exit ‘CTRL’ + ‘X’
 
