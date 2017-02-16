@@ -168,18 +168,21 @@ Several free popular online courses on Git (though Code School has a paid ‘pro
 Learning is a very personal thing and the main take-away I got from these courses was that no single one ‘did it’ for me, but they all enhanced my understanding and were well constructed. It took a number of sessions before Git reasonably ‘clicked’.
 Typically one has to do a course a number of times or do a couple of different courses presented in different ways for Git to resolve in ones mind. Remember its not time wasted, Git is ubiquitous in the coding world.
 
+
 ####[CodeSchool: TryGit:](https://try.github.io/levels/1/challenges/1) 
 “Got 15 minutes and want to learn Git?” This is the strap-line for TryGit. 
 I’d strongly urge you to do this course first simply because its an excellent 15 minutes well spent. It’s feature on the [Git website itself](https://git-scm.com)
 Codeschool also have made more in-depth Git courses including “Git real” 
   
+  
 ####[‘Git real’](http://gitreal.codeschool.com)
 Time to do course: approx 3 hours
-
 CodeSchool do a fantastic job of making an otherwise dull subject actually seem exiting ! There videos are far from dull and get across the key points well. Added to that you can download the video as a pdf of slides.
+
 
 ####[gitReal 2 is also worth looking at](http://gitreal2.codeschool.com/levels/1) 
 for more advanced users. With Code School you have a simulated Git terminal that you enter your commands into. Though it works very well, perhaps it would be nicer to actually install Git and use a real Github account as part of your learning curve. That quibble aside, it’s well worth doing this course.
+
 
 ####[Nodeschools ‘Git-it’](https://github.com/jlord/git-it-electron)
 (the new Electron desktop version) Time to do course: 1 hours I’d very much recommend doing this course because its an app that you download. You can keep the app an your desktop an dip into the course if your memory goes, plus its not too long to do 
@@ -188,6 +191,7 @@ Git-it itself is open source and it’s stored in a public access repository. An
 
 Versions for 64bit Mac (44.3 MBGit-it-Mac-x64.zip), Windows (117 MBGit-it-Win-ia32.zip) or Linux (Git-it-Linux-x64.zip) [may be downloaded](https://github.com/jlord/git-it-electron/releases). I’ll be using this course as a frame to my own Git tutorial also including the use of the Git GUI Gitkraken (see below).
 
+
 ####[Udacity ‘How to Use Git and GitHub’](https://www.udacity.com/course/how-to-use-git-and-github--ud775) 
 Time to do course: approx 18hrs This is the longest course on the list by far, but I definitely would recommend you do it if you can spare the time. Udacity has a slightly more academic way of covering topics. Thats not to say its irrelevant, it just less ‘wham-bam’ more get your brain in gear then step-by-step.
 
@@ -195,7 +199,7 @@ Udacity always provide excellent video and course note downloads plus other reso
 
 Another nice touch to the course is that they you use reflective learning techniques in the course. As you go along you save your thoughts in a simple .txt log and these become versions that you store in Git itself, giving you even more practice.
 
-  * Udacity regularly asks questions and provides quite good automated feedback on your answer.
+Udacity regularly asks questions and provides quite good automated feedback on your answer.
 One minor irritation is a couple of times you have to download and install a file to simulate a commit from someone or to simulated Github repository activity. Whilst the idea is sound, its quite distracting and I hope Udacity tweaks this part of the course in future to make the lesson closer to the real thing.
 
 ###Which course would I recommend? 
@@ -211,7 +215,7 @@ Github themselves have produced Git and Github tutorials
 [“GitHub Training & Guides”](http://bit.ly/1KqBfC0) This is four part video tutorial from Github, each video is about 6 minutes. 
 [“GitHub & Git Foundations”](http://bit.ly/2aXfzCu). It’s a 22 part video course on the basics of Github. Personally I couldn’t quite get into this course because of the video editing style but its worth having a look at as its made by Github themselves.
 
-Cheat Sheets
+###Cheat Sheets
 There are many cheat sheets on Git and here’s just a few of them. I’d recommend printing out at least one of these as your getting into Git and keep within arms reach. They are a very handy on a day to day basis. 
 [“Git Cheat sheet” by Github](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf (this is the one I use, it fits on a single sheet a paper double side printing)
 [“git - the simple guide - no deep shit”](http://rogerdudler.github.io/git-guide/)
@@ -239,7 +243,9 @@ Tim Pettersen, a senior developer from Atlassian (the company that develops the 
 The Git workflow is discussed again with Tim in episode 77 of “The Web Platform podcast” reviewed [“Project Management and Git Workflows”](http://thewebplatformpodcast.com/77-project-management-and-git-workflows). Indeed this podcast is well worth listening to generally.
 
 
-###Part 3: A newbie guide to Git
+
+
+##Part 3: A newbie guide to Git
 I’ve suggested some courses and other resources it might be appropriate to present my own command line version of Git for newbies, aimed specifically at the “Im a newbie, just getting into web dev and I don’t know my bottom from my elbow” perspective. If that is you please read and let me know if I’ve been of any help, thats my aim. 
 I can really only speak from my own learning perspective, hence constructive comments are welcome. I want illustrate Git how both from the command line perspective and, unlike the majority of online courses available as of August 2016, use a GUI Git specifically GitKraken. Frankly it’s a bit of an experiment so here goes!
 I’ve decided to re-do nodeschool’s ‘Git-it’ course but this time adding the GitKraken GUI to mirror the same course topics.
