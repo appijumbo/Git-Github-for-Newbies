@@ -96,6 +96,7 @@ Reviewing
   
 
 
+
 ####A simple table for Git GUI candidate table may be created
 
 
@@ -126,13 +127,19 @@ Linux|No|No|Yes|Yes (deb/Ubuntu)|Yes|
 
   6 [Git-Cola:](http://git-cola.github.io) is [“ideal for power users and tech ninjas”](http://www.freshtechtips.com/2015/03/git-client-windows-mac-linux.html) It’s easily available in Linux based software repositories, I’ve installed it both on Linux Mint and KDE Neon and KaOS (admittedly all Ubuntu based distros) but with no problems.  Git-cola comes in two parts, the main ‘cola’ part that lets you do commands like commit see the console and status etc, and the ‘DAG’ drawing part which shows the log history and a graphical representation of the branching. Its an excellent endeavour from its creators however from a newbie perspective perhaps not polished enough as of 2016, for example it would seem you still need to initialise a repository using the command line.
 
+
+
+
 ###Comparison of candidate GUI’s
 Having picked candidate GUI’s, the truth is that there isn’t a perfect solution for a newbie team that need to use all platforms and ideally support open source.  All the GUI’s require Mac 10.9 or Windows 7 and above so those on a tight budget might be left out. However one could install a free Linux Debian/Ubuntu distro and switch to GitKraken which might be acceptable for newbies or push comes to shove, then back to the command line which might not be a bad thing.
 
 Hence the best fit GUI options seem to be SourceTree or GitKraken which aren't open source unfortunately but are used in a commercial context so having experience with them is useful nevertheless. SourceTree and SmartGit seem polished and professional but SourceTree liscence appears to be less restrictive than SmartGit.
+
 A switch to git-cola might make sense as its both open source and platform agnostic but it seems to be geared for experts both on installation and usage. Also its not clear how popular it is in a commercial setting compared to say SourceTree which looks newbie friendly but also very professional in terms of documentation for example.
+
 SourceTree would come out on top as it has great documentation and command line support but its biased more towards Mac at the moment and frustratingly isn’t on the Linux platform.
 For the reasons above a combination of GitKraken and the command line using the terminal are what are suggested at this point in time. Experimentation may counter my arguments above but its a reasonable starting point. All team members should be able to use this software, even if they have to install Linux if a Windows 7 upgrade isn’t feasible for instance if they are using an older machine (as I sometimes do).
+
 Bottom line if most people are Windows/Mac focused then SourceTree or Github Desktop are safe bet. Linux users could just stick to the command line? However for maximum platform flexibility, and a newbie friendly Git GUI for as wider inclusivity community team as possible then GitKraken is probably a good starting point, perhaps ‘the’ only choice at time of writing (though I really wish the SourceTree was on Linux)
 
 ###Conclusion
