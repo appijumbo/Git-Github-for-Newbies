@@ -388,41 +388,84 @@ And for [other Linux distributions](https://git-scm.com/download/linux)
 ####Command Line love
 You can change how your terminal looks, and how it shows off your git. For example it can be made to could look like this 
 
+
+
+see pic
+
+
 It has username, the git branch I’m on (more on this later) and the directory I’m currently in, but also they are different colours. 
-It helpful and an optional extra. If you don’t want to do this right now then skip “ to be hip, get Git ”
+
+It helpful and an optional extra. If you don’t want to do this right now then skip “to be hip, get Git”
+
 Watch the video “Setting Up Your Workspace on Windows - How to Use Git and GitHub” from Udacity. There is a Mac/ Linux version and a Windows version.
 Here’s a few details, but I’d recommend viewing the video and getting the resource notes from Udacity.
 
+
 ####[Mac](https://www.youtube.com/watch?v=s_eFuGauy6k)
-Open up a terminal and type    $ nano bash_profile
+Open up a terminal and type  
+
+`$ nano bash_profile`
+
 this will open up your bash_profile nano , which is a basic text editor built into Linux and OSX.
+
 Add the following to your profile 
+
+`# Enable tab completion
+source ~/git-completion.bash`
+
+`# colors!
+green="\[\033[0;32m\]"
+blue="\[\033[0;34m\]"
+purple="\[\033[0;35m\]"
+reset="\[\033[0m\]"`
+
+`# Change command prompt
+source ~/git-prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=1`
+`# '\u' adds the name of the current user to the prompt`
+`# '\$(__git_ps1)' adds git-related stuff`
+`# '\W' adds the name of the current directory`
+`export PS1="$purple\u$green\$(__git_ps1)$blue \W $ $reset"
+
+alias brackets="open -a /Applications/Brackets.app"`
 
 
 Note: The last line   
-alias brackets="open -a /Applications/Brackets.app"  
-for the [Brackets IDE](http://brackets.io) development tool.  If you use say [Atom](https://atom.io)  then you will have to change this line.
+`alias brackets="open -a /Applications/Brackets.app"`
+
+
+was because I use the [Brackets IDE](http://brackets.io) development tool.  If you use say [Atom](https://atom.io)  then you will have to change this line.
+
 If you use [Sublime Text](https://www.sublimetext.com)  refer to [Ashley Nolan’s post](https://ashleynolan.co.uk/blog/launching-sublime-from-the-terminal) or [Udacity’s post](https://www.udacity.com/wiki/ud775/sublime) using ‘subl’
+
 Save your bash_profile file; which in Nano is ‘CTRL’ + ‘O’ then exit ‘CTRL’ + ‘X’
+
 
 ####Linux
 
 First make your hidden files visible, this depends on what desktop you have. If its KDE your likley using Dolphin, so to show hidden files its ‘CTRL’  +  ‘ . ’. 
 For other desktops its often ‘CTRL’ + ‘H’.  
-the bash_profile file is typically located in the Unix System Resources directory (usr)   $ /home/user/.bash_profile
-Windows
+
+the bash_profile file is typically located in the Unix System Resources directory (usr)   
+`$ /home/user/.bash_profile`
+
+
+####Windows
 Things are slightly different  different on Windows. You define how your IDE opens a different way for starters. Please see [Udacitiy’s excellent course for details](https://www.youtube.com/watch?v=IfLhXM4RnB4)
 
-####Your Global Git identity
+###Your Global Git identity
 
 Setting up your identity on Git is important. [From Git’s own handbook](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 The first thing you should do when you install Git is to set your user name and email address. This is important because every Git commit uses this information, and it’s immutably baked into the commits you start creating:
 
-$ git config --global user.name "John Doe"
+`$ git config --global user.name "John Doe"
 
-$ git config --global user.email johndoe@example.com
+$ git config --global user.email johndoe@example.com`
 
-####GitKraken; a cracking way to see git
+###GitKraken; a cracking way to see git
+
+
+see pic
 
 
 As of August 2016  GitKraken (the free versions) is available for Windows 7+, Mac OSX 10.8+ , Linux (specifically Ubuntu LTS 12.04+, Debian 8+, Fedora 21+), so many users should be covered.
