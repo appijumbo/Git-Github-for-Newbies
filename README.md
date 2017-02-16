@@ -1,32 +1,32 @@
-#Git & Github:  A Web Dev Newbie Guide
+# Git & Github:  A Web Dev Newbie Guide
 or how Git became less of a git
 
 
-##Summary
+## Summary
 If your new to programming or web development then this guide is aimed at you. For starters you do need to know how to use Git !  Of course like me you probably heard about Git and Github but put off learning it because its yet another layer off stuff to get your head around and you can code on your own perfectly well without using it. But learning Git is necessary because its:
 
    * Professionals use all the time; your expected to know it!
    * Designed for very small and very large projects
    * Zero cost: Git is free and Github if free if your code is open to public access
 
-###This guide is for newbies and community teams
+### This guide is for newbies and community teams
 This guide is aimed at web dev newbies; those that are just getting into the technology. If your not a web dev newbie but want to review Git/Github then you might still want to read because I’ve tried to make it as straight forward as I can. And if by chance your a Git expert and you’ve stumbled upon this please feel free to offer any suggestions or corrections.
 This course is also intend for those setting up community based project teams perhaps with inexperienced developers from different backgrounds. As such I aim to be as platform agnostic as I can i.e. suitable for Mac, Windows and Linux.
 
 
-##Part 1: Introduction
-###What is Git?
+## Part 1: Introduction
+### What is Git?
 According to git-scm 
 > “Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.” 
 
 Ok so that all makes sense then my fellow newbies...er probably not.
 
 
-###What does the name ‘git’ mean? something technical perhaps ?
+### What does the name ‘git’ mean? something technical perhaps ?
 
 Short answer; no. Indeed as a Brit myself it came as a bit of a surprise that it was named by its inventor Linus Torvalds as a play on the fact that people might call him a bit of a ‘git’. This is British slang for a troublesome annoying person. Thus no technical meaning, fancy mnemonics or otherwise to the actual name ‘git’. 
 
-####SO WHAT THE HECK IS GIT and GITHUB ?:-
+#### SO WHAT THE HECK IS GIT and GITHUB ?:-
 
 >**Git** is a tool you install on your own computer for organising the development of code and communicating to programmers efficiently.
 
@@ -43,15 +43,15 @@ Thus the real problem is managing the flow of information in an easy way that al
 
 Thats what Git and Github combined together are for, only your doing things electronically of course not with real paper, but the same mental model applies.
 
-###Keeping code organised
+### Keeping code organised
 
-####The very old way
+#### The very old way
 One way of designing code is to constantly re-save your code with different version numbers onto a directory. Thats like having a filing cabinet with lots of folders, each folder representing a version of the code. But just like the paper analogy, there’s no easy method to collaborate, share code and keep track of which folder is ‘the’ master one. Your controlling the flow of information about the different copies and versions properly. This is like the folders in the cabinets model.
 
-####The old way of version control
+#### The old way of version control
 The idea here is to have one central master version. Everyone project member can log into it but only one person at a time can make changes. However if the physical central server that holds the master dies then thats it, you've lost your master. This is called a ‘single point of failure’ Moreover communication is still an issue. This is like the old paper tracking method, with a log-book and one official master. This version control method is known as Centralised Version Control and its no longer the favoured way of doing version control. 
 
-####The modern way of version control: Git
+#### The modern way of version control: Git
 Everyone on the project has a clone of the remote ‘repository’ where the code is stored on their local machine; yes everybody. This cloned repository (or just ‘repo’) is a clone of the programming code and also a clone of the organising information to control the project information flow. Typically a cloud based server like Github acts as the the remote repository (or just ‘remote’) for the project.
 Now if something goes wrong in the remote repository, the remote master can be reconstructed from everybody's local clone. There is now no central point of failure.  Moreover cloud based remote repositories like Github don't just store the code, they provide a means to communicate between programmers and thus the information flow about the project is greatly automated and eased.
 
@@ -61,11 +61,11 @@ Ok, lots to take in so you might want to read the last few paragraphs again, the
 A nice 2 min video here on [Centralized vs Distributed Version](https://www.youtube.com/watch?v=_yQlKEq-Ueg)
 
 
-##Part 2: Choosing a suitable Git GUI
-###Command line blues
+## Part 2: Choosing a suitable Git GUI
+### Command line blues
 As well see later in this guide, many courses online focus on using Git in the command line. However not everyone is happy learning command line approaches. Whilst personally I don’t mind using a terminal and command line, for the benefit of any experts that may be reading this let me repeat that; normal people don’t like using the command line. Given that our visual cortex is rather a big chunk of our brain, a GUI version of Git may well be understood more easily. The task is to get stuff done in git after all.
 
-###Community Team needs
+### Community Team needs
 There are a lot of Git GUI front ends available for a quick reference see [“Git-scm GUI Clients”](https://git-scm.com/download/gui/linux or perhaps) [“10 Best Graphical Git Clients for Developers”](http://www.freshtechtips.com/2015/03/git-client-windows-mac-linux.html)
 However for the purpose of this course I’ve aimed this at web dev newbies and community teams that need to cater for all platforms, not just the latest and greatest Windows or Mac. Its important to 
 
@@ -97,7 +97,7 @@ Reviewing
 
 
 
-####A simple table for Git GUI candidate table may be created
+#### A simple table for Git GUI candidate table may be created
 
 
   
@@ -130,7 +130,7 @@ Linux|No|No|Yes|Yes (deb/Ubuntu)|Yes|
 
 
 
-###Comparison of candidate GUI’s
+### Comparison of candidate GUI’s
 Having picked candidate GUI’s, the truth is that there isn’t a perfect solution for a newbie team that need to use all platforms and ideally support open source.  All the GUI’s require Mac 10.9 or Windows 7 and above so those on a tight budget might be left out. However one could install a free Linux Debian/Ubuntu distro and switch to GitKraken which might be acceptable for newbies or push comes to shove, then back to the command line which might not be a bad thing.
 
 Hence the best fit GUI options seem to be SourceTree or GitKraken which aren't open source unfortunately but are used in a commercial context so having experience with them is useful nevertheless. SourceTree and SmartGit seem polished and professional but SourceTree liscence appears to be less restrictive than SmartGit.
@@ -142,7 +142,7 @@ For the reasons above a combination of GitKraken and the command line using the 
 
 Bottom line if most people are Windows/Mac focused then SourceTree or Github Desktop are safe bet. Linux users could just stick to the command line? However for maximum platform flexibility, and a newbie friendly Git GUI for as wider inclusivity community team as possible then GitKraken is probably a good starting point, perhaps ‘the’ only choice at time of writing (though I really wish the SourceTree was on Linux)
 
-###Conclusion
+### Conclusion
 We’ll go with GitKraken as a Git GUI for now.
 
 Note: Why Github who created the brilliant platform agnostic Electron desktop application software can’t make Github Desktop a platform agnostic Electron app, yet Axosoft can create GitKraken using Electron baffles me? From Github’s FAQ [“Q: Why don't you support the Linux platform? A: At this time, we're focused on optimizing the Mac and Windows experience. We're always thinking about potential improvements for the diverse needs of our users, though!”](http://bit.ly/2biq72V) 
@@ -155,8 +155,8 @@ Note: Why Github who created the brilliant platform agnostic Electron desktop ap
 
 
 
-##Part 2: A review of online courses on Git
-##Command line focused
+## Part 2: A review of online courses on Git
+## Command line focused
 Several free popular online courses on Git (though Code School has a paid ‘pro’ version) and all of them focus on using the command line are:
 
   * [Code School ‘Git real’](http://gitreal.codeschool.com)
@@ -169,22 +169,22 @@ Learning is a very personal thing and the main take-away I got from these course
 Typically one has to do a course a number of times or do a couple of different courses presented in different ways for Git to resolve in ones mind. Remember its not time wasted, Git is ubiquitous in the coding world.
 
 
-####[CodeSchool: TryGit:](https://try.github.io/levels/1/challenges/1) 
+#### [CodeSchool: TryGit:](https://try.github.io/levels/1/challenges/1) 
 “Got 15 minutes and want to learn Git?” This is the strap-line for TryGit. 
 I’d strongly urge you to do this course first simply because its an excellent 15 minutes well spent. It’s feature on the [Git website itself](https://git-scm.com)
 Codeschool also have made more in-depth Git courses including “Git real” 
   
   
-####[‘Git real’](http://gitreal.codeschool.com)
+#### [‘Git real’](http://gitreal.codeschool.com)
 Time to do course: approx 3 hours
 CodeSchool do a fantastic job of making an otherwise dull subject actually seem exiting ! There videos are far from dull and get across the key points well. Added to that you can download the video as a pdf of slides.
 
 
-####[gitReal 2 is also worth looking at](http://gitreal2.codeschool.com/levels/1) 
+#### [gitReal 2 is also worth looking at](http://gitreal2.codeschool.com/levels/1) 
 for more advanced users. With Code School you have a simulated Git terminal that you enter your commands into. Though it works very well, perhaps it would be nicer to actually install Git and use a real Github account as part of your learning curve. That quibble aside, it’s well worth doing this course.
 
 
-####[Nodeschools ‘Git-it’](https://github.com/jlord/git-it-electron)
+#### [Nodeschools ‘Git-it’](https://github.com/jlord/git-it-electron)
 (the new Electron desktop version) Time to do course: 1 hours I’d very much recommend doing this course because its an app that you download. You can keep the app an your desktop an dip into the course if your memory goes, plus its not too long to do 
 
 Git-it itself is open source and it’s stored in a public access repository. Any coder may contribute to it on Github. [Some instructions on how to download and install Git](https://github.com/jlord/git-it-electron/issues/121#issue-149747488)
@@ -192,7 +192,7 @@ Git-it itself is open source and it’s stored in a public access repository. An
 Versions for 64bit Mac (44.3 MBGit-it-Mac-x64.zip), Windows (117 MBGit-it-Win-ia32.zip) or Linux (Git-it-Linux-x64.zip) [may be downloaded](https://github.com/jlord/git-it-electron/releases). I’ll be using this course as a frame to my own Git tutorial also including the use of the Git GUI Gitkraken (see below).
 
 
-####[Udacity ‘How to Use Git and GitHub’](https://www.udacity.com/course/how-to-use-git-and-github--ud775) 
+#### [Udacity ‘How to Use Git and GitHub’](https://www.udacity.com/course/how-to-use-git-and-github--ud775) 
 Time to do course: approx 18hrs This is the longest course on the list by far, but I definitely would recommend you do it if you can spare the time. Udacity has a slightly more academic way of covering topics. Thats not to say its irrelevant, it just less ‘wham-bam’ more get your brain in gear then step-by-step.
 
 Udacity always provide excellent video and course note downloads plus other resources. In this course one of the most valuable bits for some might be the ‘concept maps’ used to build up a picture of where all bits of Git fit in
@@ -202,7 +202,7 @@ Another nice touch to the course is that they you use reflective learning techni
 Udacity regularly asks questions and provides quite good automated feedback on your answer.
 One minor irritation is a couple of times you have to download and install a file to simulate a commit from someone or to simulated Github repository activity. Whilst the idea is sound, its quite distracting and I hope Udacity tweaks this part of the course in future to make the lesson closer to the real thing.
 
-###Which course would I recommend? 
+### Which course would I recommend? 
 Much depends on the environment your learning in, time availability etc. If push came to shove and your very short on time I’d say do the nodeschool “git-it” course. However if your like me and the fast pitch approach isn’t enough to stick in your head then add in the Udacity course or the Git-real course from CodeSchool.Notable Quality Youtube Tutorials 
 
 Youtube provides some excellent tutorials including: 
@@ -219,7 +219,7 @@ If you like a fast pace, and your into coding then Derek’s your guy. Have a lo
 
   [“GitHub & Git Foundations”](http://bit.ly/2aXfzCu). It’s a 22 part video course on the basics of Github. Personally I couldn’t quite get into this course because of the video editing style but its worth having a look at as its made by Github themselves.
 
-###Cheat Sheets
+### Cheat Sheets
 There are many cheat sheets on Git and here’s just a few of them. I’d recommend printing out at least one of these as your getting into Git and keep within arms reach. They are a very handy on a day to day basis. 
 
   * [“Git Cheat sheet” by Github](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
@@ -228,11 +228,11 @@ There are many cheat sheets on Git and here’s just a few of them. I’d recomm
   * [“git - the simple guide - no deep shit”](http://rogerdudler.github.io/git-guide/)
   * [“Git Cheat sheet” by Tower](https://www.git-tower.com/blog/git-cheat-sheet/)
 
-###Books
+### Books
 If your really keen and want to get the possibly best ebook on Git then the [Git Pro-git book](https://git-scm.com/book/en/v2) is what you want. Its not aimed at web dev newbies but you might want to be aware of it and at least peruse the introduction and contents pages to get an idea of how big Git is. However I’d suggest perhaps looking at this book after you’ve mastered the basics as it might be a bit too overwhelming for the newbie (its 364 pages long!).
 The book is available for download in pdf, epub, mobi or html formats. 
 
-####Chapters include:
+#### Chapters include:
   * Getting Started
   * Git Basics
   * Git Branching
@@ -244,7 +244,7 @@ The book is available for download in pdf, epub, mobi or html formats.
   * Git and Other Systems
   * Git Internals
 
-###Podcast and Tutorials about Git Workflows
+### Podcast and Tutorials about Git Workflows
 Once you've installed Git and mastered the basics then exactly how should your team employ Git? 
 Tim Pettersen, a senior developer from Atlassian (the company that develops the Git GUI Sourcetree) has produced a [helpful tutorial on Git Workflows](https://www.atlassian.com/git/) as well as a [1 hour presentation](https://www.youtube.com/watch?v=O4SoB3TFkjA)  tip: If your short on time, skip the preamble and go to 8min 40s
 The Git workflow is discussed again with Tim in episode 77 of “The Web Platform podcast” reviewed [“Project Management and Git Workflows”](http://thewebplatformpodcast.com/77-project-management-and-git-workflows). Indeed this podcast is well worth listening to generally.
@@ -252,7 +252,7 @@ The Git workflow is discussed again with Tim in episode 77 of “The Web Platfor
 
 
 
-##Part 3: A newbie guide to Git
+## Part 3: A newbie guide to Git
 I’ve suggested some courses and other resources it might be appropriate to present my own command line version of Git for newbies, aimed specifically at the “Im a newbie, just getting into web dev and I don’t know my bottom from my elbow” perspective. If that is you please read and let me know if I’ve been of any help, thats my aim. 
 
 I can really only speak from my own learning perspective, hence constructive comments are welcome. I want illustrate Git how both from the command line perspective and, unlike the majority of online courses available as of August 2016, use a GUI Git specifically GitKraken. Frankly it’s a bit of an experiment so here goes!
@@ -336,7 +336,7 @@ pic here
 
 
 
-###Where to issue commands
+### Where to issue commands
 You need to open up your terminal app (Mac / Linux), in windows this is called the Command Prompt 
 
    * Mac
@@ -354,7 +354,7 @@ So you’ve created a Github account, but remember you still don’t necessary h
 
 Newbie Tip: don't actually type in the $ symbol, its just means normal user and visually shows where the where to type in the commands
 
-####Mac and Windows
+#### Mac and Windows
 The easiest way for Mac and Windows users is to [install Github Desktop](https://desktop.github.com) . This is a Git GUI from the company Github, but it will install Git onto your machine. We’re not using this particular Git GUI in the rest of the tutorial because its not available for Linux (rather bizarrely in my humble opinion).
 
 Now open your terminal and enter
@@ -370,7 +370,7 @@ see pic
 
 
 
-####Linux
+#### Linux
 First you’ll need to know your administrator password. Second we will make the perhaps grandiose assumption for the moment that typically Linux users who are newbies, are likely to be running a Debian or Ubuntu derivative.  
 
 Use you desktop menu or shortcut key (try Ctrl+Alt+T)  to open up your terminal and type
@@ -401,7 +401,7 @@ Watch the video “Setting Up Your Workspace on Windows - How to Use Git and Git
 Here’s a few details, but I’d recommend viewing the video and getting the resource notes from Udacity.
 
 
-####[Mac](https://www.youtube.com/watch?v=s_eFuGauy6k)
+#### [Mac](https://www.youtube.com/watch?v=s_eFuGauy6k)
 Open up a terminal and type  
 
 `$ nano bash_profile`
@@ -452,7 +452,7 @@ If you use [Sublime Text](https://www.sublimetext.com)  refer to [Ashley Nolan�
 Save your bash_profile file; which in Nano is ‘CTRL’ + ‘O’ then exit ‘CTRL’ + ‘X’
 
 
-####Linux
+#### Linux
 
 First make your hidden files visible, this depends on what desktop you have. If its KDE your likley using Dolphin, so to show hidden files its ‘CTRL’  +  ‘ . ’. 
 For other desktops its often ‘CTRL’ + ‘H’.  
@@ -461,10 +461,10 @@ the bash_profile file is typically located in the Unix System Resources director
 `$ /home/user/.bash_profile`
 
 
-####Windows
+#### Windows
 Things are slightly different  different on Windows. You define how your IDE opens a different way for starters. Please see [Udacitiy’s excellent course for details](https://www.youtube.com/watch?v=IfLhXM4RnB4)
 
-###Your Global Git identity
+###Y our Global Git identity
 
 Setting up your identity on Git is important. [From Git’s own handbook](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 The first thing you should do when you install Git is to set your user name and email address. This is important because every Git commit uses this information, and it’s immutably baked into the commits you start creating:
@@ -509,7 +509,7 @@ To add Git to this directory, thus turning it into a repository or ‘repo’ we
 
   * INITIALISE git in this directory  `$ git init`
 
-1) CHANGE into the right directory  `$cd`
+#### 1) CHANGE into the right directory  `$cd`
 
 Now open up your terminal and type
 `$ cd ~`     (to go change the directory ‘cd’ to the home ‘~’)
@@ -540,7 +540,7 @@ see pic
 
 
 
-2) INITIALISE git in this directory  ($ git init)
+#### 2) INITIALISE git in this directory  ($ git init)
 
 `$ git init`
 you should get a response with the words
@@ -602,7 +602,7 @@ if we `$ git status`
 see pic
 
 
-####Whats happening?  Why isn’t git saving it?
+#### Whats happening?  Why isn’t git saving it?
 
 If we read the status report it tells us that our files and folder aren't ‘staged’. There are three areas in Git that files pass through:
 
@@ -796,13 +796,13 @@ or PULL files     `$ git pull <remote name> <branch name>`
  
 `$ git pull origin master`
 
-###Licensing
+### Licensing
 When you create a new repository for your project in GitHub you may include a software license. As a starting point, Github has created a website to help developers [choose a license](http://choosealicense.com)
 
-###gitnore
+### gitnore
 You may want to ignore file. To do this use the .[gitnore file](https://git-scm.com/docs/gitignore) and [use gitnore for automated ignoring of typical files](https://www.gitignore.io) found in operation systems, [for example .DS_Store]( http://sourabhbajaj.com/mac-setup/Git/gitignore.html for example)
 
-###Readme
+### Readme
 This is a description of the project and perhaps how people can get involved or other useful information point for people interested in the project point of view, not simply a user.
 
 
