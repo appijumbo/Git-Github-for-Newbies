@@ -385,7 +385,7 @@ And for [other Linux distributions](https://git-scm.com/download/linux)
 
 
 
-####Command Line love
+## Command Line love
 You can change how your terminal looks, and how it shows off your git. For example it can be made to could look like this 
 
 
@@ -473,7 +473,7 @@ The first thing you should do when you install Git is to set your user name and 
 
 `$ git config --global user.email johndoe@example.com`
 
-###GitKraken; a cracking way to see git
+## GitKraken; a cracking way to see git
 
 
 
