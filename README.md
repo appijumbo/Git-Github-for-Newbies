@@ -214,7 +214,8 @@ Travis is a front-end developer with a superb channel aimed at the creative arty
 If you like a fast pace, and your into coding then Derek’s your guy. Have a look around his channel and you'll be impressed by the breadth of his knowledge on coding.  His Git courses is four videos approx 15 to 25 mins each.
 
   * Github themselves have produced Git and Github tutorials
-[“GitHub Training & Guides”](http://bit.ly/1KqBfC0) This is four part video tutorial from Github, each video is about 6 minutes. 
+[“GitHub Training & Guides”](http://bit.ly/1KqBfC0) This is four part video tutorial from Github, each video is about 6 minutes.
+
 [“GitHub & Git Foundations”](http://bit.ly/2aXfzCu). It’s a 22 part video course on the basics of Github. Personally I couldn’t quite get into this course because of the video editing style but its worth having a look at as its made by Github themselves.
 
 ###Cheat Sheets
