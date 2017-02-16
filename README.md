@@ -764,117 +764,151 @@ However all our efforts have been on our local computer, the git that sits on ou
 What we really need to do is start file transfers between our local Git and our remote git, which typically is Github.
 
 
+
+see pic
+
+
+
 We want to PUSH files up to Github, and PULL files from Github
 Now traditionally we call our main remote repository ‘origin’ and to add a connection from our local git to our remote Github, its just
 
-$ git remote add origin <Github URL goes here>
+`$ git remote add origin <Github URL goes here>`
 
 Now open up the Github web page and go to the remote repo you want to connect to.
 Then click on the ‘clone or download’ button and copy the URL.
 
 
+
+see pic
+
+
 So in this case its 
  
-$ [git remote add origin](https://github.com/commTechLiv/tutorials.git)
+`$ git remote add origin https://github.com/commTechLiv/tutorials.git`
 
-and to check what your remote is        $ git remote –v
+and to check what your remote is    `$ git remote –v`
 
-and to PUSH files up to the remote     $ git push <remote name> <branch name>
+and to PUSH files up to the remote  `$ git push <remote name> <branch name>`
  
-$ git push origin master
+`$ git push origin master`
 
-or PULL files     $ git pull <remote name> <branch name>
+or PULL files     `$ git pull <remote name> <branch name>`
  
-$ git pull origin master
+`$ git pull origin master`
 
-licensing
+###Licensing
 When you create a new repository for your project in GitHub you may include a software license. As a starting point, Github has created a website to help developers [choose a license](http://choosealicense.com)
 
-gitnore
-You may want to ignore file. To do this [use the .gitnore file](https://git-scm.com/docs/gitignore) and [use gitnore for aoutomated ignoring of typical files](https://www.gitignore.io) found in operation systems, [for example .DS_Store]( http://sourabhbajaj.com/mac-setup/Git/gitignore.html for example)
+###gitnore
+You may want to ignore file. To do this use the .[gitnore file](https://git-scm.com/docs/gitignore) and [use gitnore for automated ignoring of typical files](https://www.gitignore.io) found in operation systems, [for example .DS_Store]( http://sourabhbajaj.com/mac-setup/Git/gitignore.html for example)
 
-readme
+###Readme
 This is a description of the project and perhaps how people can get involved or other useful information point for people interested in the project point of view, not simply a user.
-Clones and Forks: a perfect copy
+
+
+
+## Clones and Forks: a perfect copy
 
 Forking is when you create an exact copy, a ‘clone’ of a Github repository onto your Github repository. This clone is called a ‘fork’ in Github terminology and only exists on your Github account and just to be clear, ‘fork’ is a Github phrase, the generic term is ‘clone’.
+
 Now to make this repository exist on your local machine you have to clone the Github       repository that you forked onto your local machine. It’s a clone of a clone. 
 
 
-First check what remote your connected to	 $ git remote -v
+
+see pic
+
+
+
+First check what remote your connected to	 `$ git remote -v`
 
 You can always add another remote if you wish by 
-$ git remote add <name of remote>  <URL of remote>
+`$ git remote add <name of remote>  <URL of remote>`
 
 and if you have several remote repos, change the remote using
-$ git remote set-url <name of remote>  <URL of remote>
+`$ git remote set-url <name of remote>  <URL of remote>`
 
-Change your directory,  $ cd..  ,to where you want your cloned/ forked repo to be put locally.
- Now clone the remote   $ git clone <URL of remote repo>
+Change your directory,  `$ cd..`  ,to where you want your cloned/ forked repo to be put locally.
+Now clone the remote   `$ git clone <URL of remote repo>`
+
 However its very likely that you’ll want to be able to refresh your locally cloned repo, pulling in the newer version thats on the remote repo. Rather than cloning the entire repo again, you can add the latest changes.
+
 By convention the repo containing the latest changes is often called ‘upstream’. 
 So to add this upstream remote
 
-$ git remote add upstream  <URL of remote repo ‘upstream’>
+`$ git remote add upstream  <URL of remote repo ‘upstream’>`
 
-Your Master branch awaits
+## Your Master branch awaits
 On of the main concepts in Git is branches. The illustration below shows commit’s being made along the main trunk of the project which called the ‘master’ branch .
 
 
+see pic
+
+
+
 Each member of the team has a clone of the master branch which they keep updated.
+
 As they work on individual features these are developed as feature branches,. They only exist on the individual developers computer, no other developer can see the code. Once a developer is happy that the feature as reached a point where it can be reviewed then it may be cloned by a coder via a remote repo like Github.
+
 Likewise  if the feature branch has reached a point where its to be considered ready to be merged with the main branch, the feature branch developer can make a request to the main branch project manager to pull the branch into the main branch and merge it in.
 
-So to create a branch     $ git branch <new branch name>
+So to create a branch     `$ git branch <new branch name>`
 
-and to switch to another branch   $ git checkout <branch name>
+and to switch to another branch   `$ git checkout <branch name>`
 
-Do Push n Pull
+## Do Push n Pull
 Getting branches to and from remote repos is called pushing and pulling
 
 To pull in  the latest changes
-$ git pull <remote repo> <branch on repo>
+`$ git pull <remote repo> <branch on repo>`
 
 For instance if we wanted a branch were called  ‘development’  and say a remote called ‘upstream’  to be  pulled into your local repository
  
-$ git pull upstream development
+`$ git pull upstream development`
 
 We can also push up changes, so if we want to push up a branch to say a remote called ‘origin’
-$ git push origin <branch name>
+`$ git push origin <branch name>`
 
-BUT, you might be refused….and this is  good thing!
+####BUT, you might be refused….and this is  good thing!
 This is an important concept called a ‘pull-request’
 Proper project management ensures that code is not just taken ‘as is’ and is checked. Part of this checking is by other human codes . Thus a typical workflow is that when someone asks for code to be included in the main branch, a request to pull in their branch code is made.
+
 Github makes this process easy , indeed ‘pull-requests’ are routine. Only where a team or project manager is happy (depending on how the git workflow is achieved) will code be accepted.
+
 Indeed it might be accepted first into a development branch to be tested alongside other features to check for any inter-dependancies that may have been missed during the development of that feature  branch.
+
 Only when the development branch is considered ‘stable’ will it be merged into the main ‘master’ branch, which is typically the branch that the customer or end-user sees.
 
 
 
+see pic
+
+
+
 Click on ‘pull-request’, and then changing the branch range and destination repository . Then click on the pull request button, enter a description and [create the pull-request](https://help.github.com/articles/creating-a-pull-request/)
+
 Note that even though you may have forked your repo, and now ‘own’ that fork Github rembers its history, and you can alwsy do pull-requests back to the original repo. This is called [‘Creating a pull request from a fork’](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 
-The way of the git Master branch
+## The way of the git Master branch
 Change to the branch you want to merge to	
-$ git checkout master
+`$ git checkout master`
 
 To merge locally, 
-(master) $ git merge mydevbranch
+`(master) $ git merge mydevbranch`
 
 
 Now we've merged, we don’t need the old ‘mydevbranch’ branch so lets delete it using -d
 
-$git branch -d mydevbranch
+`$git branch -d mydevbranch`
 
 
 
 To merge a remote Github repository thats called ‘upstream’ and has a branch called ‘bob’
-$ git pull upstream bob
+`$ git pull upstream bob`
 
 
 
 
-Git Workflows
+## Git Workflows
 The following is a summary of workflow approaches based of [Tim Pettersen’s 1 hour presentation](https://www.youtube.com/watch?v=O4SoB3TFkjA)  tip: If your short on time, skip the preamble and go to 8min 40s. Tim is a senior developer from Atlassian who make SourceTree and other software tools.
 
 Basic ideas
