@@ -534,7 +534,7 @@ Then click on the ‘clone or download’ button and copy the URL.
 
 So in this case its 
  
-$ git remote add origin https://github.com/commTechLiv/tutorials.git
+$ [git remote add origin](https://github.com/commTechLiv/tutorials.git)
 
 and to check what your remote is        $ git remote –v
 
