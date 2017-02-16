@@ -254,7 +254,9 @@ The Git workflow is discussed again with Tim in episode 77 of “The Web Platfor
 
 ##Part 3: A newbie guide to Git
 I’ve suggested some courses and other resources it might be appropriate to present my own command line version of Git for newbies, aimed specifically at the “Im a newbie, just getting into web dev and I don’t know my bottom from my elbow” perspective. If that is you please read and let me know if I’ve been of any help, thats my aim. 
+
 I can really only speak from my own learning perspective, hence constructive comments are welcome. I want illustrate Git how both from the command line perspective and, unlike the majority of online courses available as of August 2016, use a GUI Git specifically GitKraken. Frankly it’s a bit of an experiment so here goes!
+
 I’ve decided to re-do nodeschool’s ‘Git-it’ course but this time adding the GitKraken GUI to mirror the same course topics.
  
 To discuss how to use git, with the following (hopefully) memorable headings of
