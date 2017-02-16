@@ -949,7 +949,7 @@ Use two coders to review code, don’t just use auto testing tools !
 ## Conclusion and Summary
 Having covered the basics of Git and Github theres no excuse to use it when you next write code. In fact Github are looking at expanding the use of Git beyond just code [law, fonts, Gregorian chants] (https://github.com/CMAA/nova-organi-harmonia), but thats another story.
 
-Now git coding ! 
+Now **git** coding ! 
 
 
 ## Resources
