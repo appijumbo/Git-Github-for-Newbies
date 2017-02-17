@@ -348,7 +348,7 @@ Only if your creating a _brand new_ repository inside Github, thats doesn't exis
 
 
 
-<img src="./images/Now%20to%20make%20this%20repository%20exist%20on%20your%20local%20machine%20you%20have%20to%20clone%20the%20Github%20%20%20%20%20%20%20repository%20that%20you%20forked%20onto%20your%20local%20machine.%20It%E2%80%99s%20a%20clone%20of%20a%20clone.jpg" width="600" height="auto" />
+<img src="./images/In this case its brand new so its clicked.jpg" width="600" height="auto" />
 
 
 
