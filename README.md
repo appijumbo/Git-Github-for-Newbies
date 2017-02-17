@@ -184,7 +184,7 @@ Codeschool also have made more in-depth Git courses including “Git real”
 #### [‘Git real’](http://gitreal.codeschool.com)
 Time to do course: approx 3 hours
 
-<img src="./images/Codeschool_Git_real.jpg" width="400" height="auto" />
+<img src="./images/Codeschool_Git_real.jpg" width="600" height="auto" />
 
 CodeSchool do a fantastic job of making an otherwise dull subject actually seem exiting ! There videos are far from dull and get across the key points well. Added to that you can download the video as a pdf of slides.
 
