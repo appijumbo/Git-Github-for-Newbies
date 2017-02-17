@@ -171,6 +171,8 @@ Several free popular online courses on Git (though Code School has a paid ‘pro
   
   * [Udacity ‘How to Use Git and GitHub’](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
   
+  <img src="./images/Higher_learning.jpg" width="400" height="auto" />
+  
 Learning is a very personal thing and the main take-away I got from these courses was that no single one ‘did it’ for me, but they all enhanced my understanding and were well constructed. It took a number of sessions before Git reasonably ‘clicked’.
 Typically one has to do a course a number of times or do a couple of different courses presented in different ways for Git to resolve in ones mind. Remember its not time wasted, Git is ubiquitous in the coding world.
 
