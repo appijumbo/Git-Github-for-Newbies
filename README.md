@@ -601,15 +601,14 @@ So far so good, we’ve made a new git repo, checked its status. But theres noth
 Lets put some files and a directory to our empty repo called ‘communityTechLiverpool”
 
 
-<img src="./images/git-status-.jpg" width="600" height="auto" />
+<img src="./images/Lets%20put%20some%20files%20and%20a%20directory%20to%20our%20empty%20repo%20called%20%E2%80%98communityTechLiverpool%E2%80%9D.jpg" width="600" height="auto" />
 
 
 
 if we `$ git status`
 
 
-
-see pic
+<img src="./images/git.jpg" width="600" height="auto" />
 
 
 #### Whats happening?  Why isn’t git saving it?
