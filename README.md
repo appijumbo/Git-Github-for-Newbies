@@ -348,7 +348,7 @@ Only if your creating a _brand new_ repository inside Github, thats doesn't exis
 
 
 
-<img src="./images/click on the ‘clone or download’ button.jpg" width="600" height="auto" />
+<img src="./images/In this case its brand new so its clicked.jpg" width="600" height="auto" />
 
 
 
@@ -357,7 +357,7 @@ Now we have our repository. If we click on the ‘clone or download’ button we
 
 
 
-
+<img src="./images/click on the ‘clone or download’ button.jpg" width="600" height="auto" />
 
 
 
@@ -416,7 +416,7 @@ You can change how your terminal looks, and how it shows off your git. For examp
 
 
 
-<img src="./images/sheilas-.jpg" width="600" height="auto" />
+<img src="./images/sheilas-.jpg" width="300" height="auto" />
 
 
 It has username, the git branch I’m on (more on this later) and the directory I’m currently in, but also they are different colours. 
@@ -490,7 +490,7 @@ the bash_profile file is typically located in the Unix System Resources director
 #### Windows
 Things are slightly different  different on Windows. You define how your IDE opens a different way for starters. Please see [Udacitiy’s excellent course for details](https://www.youtube.com/watch?v=IfLhXM4RnB4)
 
-###Y our Global Git identity
+### Your Global Git identity
 
 Setting up your identity on Git is important. [From Git’s own handbook](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 The first thing you should do when you install Git is to set your user name and email address. This is important because every Git commit uses this information, and it’s immutably baked into the commits you start creating:
@@ -502,9 +502,7 @@ The first thing you should do when you install Git is to set your user name and 
 ## GitKraken; a cracking way to see git
 
 
-
 <img src="./images/Github;%20a%20hub%20where%20pros%20show%20code.jpg" width="600" height="auto" />
-
 
 
 As of August 2016  GitKraken (the free versions) is available for Windows 7+, Mac OSX 10.8+ , Linux (specifically Ubuntu LTS 12.04+, Debian 8+, Fedora 21+), so many users should be covered.
