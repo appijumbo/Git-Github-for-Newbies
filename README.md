@@ -209,7 +209,11 @@ Versions for 64bit Mac (44.3 MBGit-it-Mac-x64.zip), Windows (117 MBGit-it-Win-ia
 
 
 #### [Udacity ‘How to Use Git and GitHub’](https://www.udacity.com/course/how-to-use-git-and-github--ud775) 
-Time to do course: approx 18hrs This is the longest course on the list by far, but I definitely would recommend you do it if you can spare the time. Udacity has a slightly more academic way of covering topics. Thats not to say its irrelevant, it just less ‘wham-bam’ more get your brain in gear then step-by-step.
+Time to do course: approx 18hrs 
+
+<img src="./images/Udacity%20%E2%80%98How%20to%20Use%20Git%20and%20GitHub%E2%80%99.jpg" width="600" height="auto" />
+
+This is the longest course on the list by far, but I definitely would recommend you do it if you can spare the time. Udacity has a slightly more academic way of covering topics. Thats not to say its irrelevant, it just less ‘wham-bam’ more get your brain in gear then step-by-step.
 
 Udacity always provide excellent video and course note downloads plus other resources. In this course one of the most valuable bits for some might be the ‘concept maps’ used to build up a picture of where all bits of Git fit in
 
