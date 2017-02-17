@@ -37,7 +37,7 @@ Lets give you a mental model. A traditional paper office desk can become incredi
 
 What do you do traditionally in the paper office to keep the information organised? Well you put paper in folders, then put labels on the folders, then put the folders in cabinets which act as a storage or repository for all the information. Good so far.
 
-<img src="http://./images/folders_pic.jpg" width="350" height="auto" />
+<img src="./images/folders_pic.jpg" width="350" height="auto" />
 
 But here’s the problem; they are your folders, your master projects, and you need to control and manage the flow of information contained in the master folders. Now what if someone wants to amend a folder? They have to physically come to your office and perhaps sign a receipt or log-book before taking the folder away. You then rely on them keeping it in order and not adding incorrect information. One solution is that they clone the entire folder using a paper scanner, but would they would still need to put in a request to you to have any changes pulled back into the original ‘master’ folder for those changes to become ‘official’. The paper and information just logging and controlling the flow of the different copies of your folders and requests to add and take folders away itself has to be managed!
 
