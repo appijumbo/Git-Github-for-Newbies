@@ -279,7 +279,7 @@ I can really only speak from my own learning perspective, hence constructive com
 
 I’ve decided to re-do nodeschool’s ‘Git-it’ course but this time adding the GitKraken GUI to mirror the same course topics.
  
-To discuss how to use git, with the following (hopefully) memorable headings of:
+#### To discuss how to use git, with the following (hopefully) memorable headings of:
 
   1) Github; a hub where pros show code
   
@@ -315,25 +315,30 @@ To discuss how to use git, with the following (hopefully) memorable headings of:
   
 ## Github; a hub where pros show code
 
+<img src="./images/Github;%20a%20hub%20where%20pros%20show%20code.jpg" width="600" height="auto" />
+
 As with any other site, you need to enter your name, email address etc create a basic profile. Many coding sites use your Github account so make sure your details are correct.
+
+
 You might want to watch this [a 40 second guide to signing up to Github](https://www.youtube.com/watch?v=ezxRcdJ8glM), made by Github.
 Usually for a newbie to Github, the free unlimited public option is fine.
 
 
 
-pic here
+<img src="./images/for%20a%20newbie%20to%20Github,%20the%20free%20unlimited%20public%20option%20is%20fine.jpg" width="600" height="auto" />
 
 
 
 Click as appropriate or just skip
 
 
-
-pic here
-
+<img src="./images/Click%20as%20appropriate%20or%20just%20skip.jpg" width="600" height="auto" />
 
 
 You need to verify your email address before continuing
+
+
+<img src="./images/You%20need%20to%20verify%20your%20email%20address%20before%20continuing.jpg" width="600" height="auto" />
 
 Congratulations, if you've got to this screen you know have a Github account !
 I’d suggest clicking the ‘Read the Guide’ If your new to Github, its a reasonably good guide. However if its a bit confusing don’t worry, it should make more sense as you interact with Github. 
@@ -343,7 +348,7 @@ Only if your creating a _brand new_ repository inside Github, thats doesn't exis
 
 
 
-pic here
+<img src="./images/Now%20to%20make%20this%20repository%20exist%20on%20your%20local%20machine%20you%20have%20to%20clone%20the%20Github%20%20%20%20%20%20%20repository%20that%20you%20forked%20onto%20your%20local%20machine.%20It%E2%80%99s%20a%20clone%20of%20a%20clone.jpg" width="600" height="auto" />
 
 
 
