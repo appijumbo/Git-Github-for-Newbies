@@ -197,7 +197,11 @@ for more advanced users. With Code School you have a simulated Git terminal that
 
 
 #### [Nodeschools ‘Git-it’](https://github.com/jlord/git-it-electron)
-(the new Electron desktop version) Time to do course: 1 hours I’d very much recommend doing this course because its an app that you download. You can keep the app an your desktop an dip into the course if your memory goes, plus its not too long to do 
+(the new Electron desktop version) 
+
+<img src="./images/Nodeschools%20%E2%80%98Git-it%E2%80%99.jpg" width="600" height="auto" />
+
+Time to do course: 1 hours I’d very much recommend doing this course because its an app that you download. You can keep the app an your desktop an dip into the course if your memory goes, plus its not too long to do 
 
 Git-it itself is open source and it’s stored in a public access repository. Any coder may contribute to it on Github. [Some instructions on how to download and install Git](https://github.com/jlord/git-it-electron/issues/121#issue-149747488)
 
