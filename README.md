@@ -608,7 +608,7 @@ Lets put some files and a directory to our empty repo called ‘communityTechLiv
 if we `$ git status`
 
 
-<img src="./images/git.jpg" width="600" height="auto" />
+<img src="./images/if we $ git status.jpg" width="600" height="auto" />
 
 
 #### Whats happening?  Why isn’t git saving it?
@@ -637,7 +637,7 @@ If we read the status report it tells us that our files and folder aren't ‘sta
 
 
 
-see pic
+<img src="./images/it makes sense to commit the style.css code to the repository.jpg" width="600" height="auto" />
 
 
 
@@ -653,8 +653,7 @@ or
 
 
 
-
-see pic
+<img src="./images/git-add-foundation-.jpg" width="600" height="auto" />
 
 
 
@@ -672,13 +671,13 @@ Suppose were satisfied that we’ve completed a logical change in the code in on
 `$ git commit -m “description goes here”`
 
 
-see pic
+<img src="./images/git-commit-m-musician.jpg" width="600" height="auto" />
 
 
 Its normal to check that everything is ok so we git status again
 
 
-see pic
+<img src="./images/git-status-again-.jpg" width="600" height="auto" />
 
 
 
@@ -687,14 +686,13 @@ Now we've made one commit, but normally there would be many more. To see this hi
 `$ git log`
 
 
-see pic
+<img src="./images/git-log-.jpg" width="600" height="auto" />
 
 
 we see that there only a history of one commit at the moment. Recalling our files 
 
 
-see pic
-
+<img src="./images/git-log--git-status-.jpg" width="600" height="auto" />
 
 
 Now if we now change a file, lets say the index.html file and then save it 
@@ -710,7 +708,7 @@ we see git has noticed the change, but exactly what has changed? Lets look at �
 If we recall our earlier picture of the different ares, working, stage and repository
 
 
-see pic
+<img src="./images/it makes sense to commit the style.css code to the repository.jpg" width="600" height="auto" />
 
 
 Its sometimes useful to be able to see the differences between code thats in one area say the working area and the staged area.  For example:
@@ -718,8 +716,7 @@ Its sometimes useful to be able to see the differences between code thats in one
 `$ git diff `    shows the differences between working and staged areas
 
 
-
-see pic
+<img src="./images/git-log--git-status--git-diff-.jpg" width="600" height="auto" />
 
 
 
@@ -735,12 +732,7 @@ then we will commit it
 so were good to go!  Now if we look at our commit history we should see 2 commits, the initial one when the files were created and the change we just made, lest check with `$ git log `
 
 
-
-see pic
-
-
-
-
+<img src="./images/git-log--add-mus-jpgs.jpg" width="600" height="auto" />
 
 
 
@@ -749,12 +741,7 @@ Indeed we have 2 commits !But whats the difference between those commits, the ac
 `$ git diff [first commit number ] [second commit number] `
 
 
-
-
-see pic
-
-
-
+<img src="./images/git-log--git-diff--body--choose-composer.jpg" width="600" height="auto" />
 
 
 ## Promote your Remote
@@ -774,11 +761,11 @@ What we really need to do is start file transfers between our local Git and our 
 
 
 
-see pic
+<img src="./images/What we really need to do is start file transfers between our local Git and our remote git, which typically is Github.jpg" width="600" height="auto" />
 
 
 
-We want to PUSH files up to Github, and PULL files from Github
+We want to **PUSH files up** to Github, and **PULL files down** from Github
 Now traditionally we call our main remote repository ‘origin’ and to add a connection from our local git to our remote Github, its just
 
 `$ git remote add origin <Github URL goes here>`
@@ -788,7 +775,7 @@ Then click on the ‘clone or download’ button and copy the URL.
 
 
 
-see pic
+<img src="./images/Now open up the Github web page and go to the remote repo you want to connect to. Then click on the ‘clone or download’ button and copy the URL.jpg" width="600" height="auto" />
 
 
 So in this case its 
@@ -823,8 +810,7 @@ Forking is when you create an exact copy, a ‘clone’ of a Github repository o
 Now to make this repository exist on your local machine you have to clone the Github       repository that you forked onto your local machine. It’s a clone of a clone. 
 
 
-
-see pic
+<img src="./images/Now to make this repository exist on your local machine you have to clone the Github       repository that you forked onto your local machine. It’s a clone of a clone.jpg" width="600" height="auto" />
 
 
 
@@ -850,7 +836,7 @@ So to add this upstream remote
 On of the main concepts in Git is branches. The illustration below shows commit’s being made along the main trunk of the project which called the ‘master’ branch .
 
 
-see pic
+<img src="./images/Your Master branch awaits.jpg" width="600" height="auto" />
 
 
 
@@ -889,7 +875,7 @@ Only when the development branch is considered ‘stable’ will it be merged in
 
 
 
-see pic
+<img src="./images/Only when the development branch is considered ‘stable’ will it be merged into the main ‘master’ branch, which is typically the branch that the customer or end-user sees.jpg" width="600" height="auto" />
 
 
 
