@@ -42,6 +42,9 @@ What do you do traditionally in the paper office to keep the information organis
 But here’s the problem; they are your folders, your master projects, and you need to control and manage the flow of information contained in the master folders. Now what if someone wants to amend a folder? They have to physically come to your office and perhaps sign a receipt or log-book before taking the folder away. You then rely on them keeping it in order and not adding incorrect information. One solution is that they clone the entire folder using a paper scanner, but would they would still need to put in a request to you to have any changes pulled back into the original ‘master’ folder for those changes to become ‘official’. The paper and information just logging and controlling the flow of the different copies of your folders and requests to add and take folders away itself has to be managed!
 
 
+<img src="./images/locker.jpg" width="800" height="auto" />
+
+
 Thus the real problem is managing the flow of information in an easy way that allows people to use the master ‘folder’. Ideally people should be able to make a copy or ‘clone’ and experiment with it in a sort of separate side-branch to the master. Then when its appropriate they can request any changes be pulled back into the original. Moreover an easy way to communicating information like requesting to pull in new changes into the original that didn't rely on multiple communication channels like emails or post-it notes would be highly advantageous.
 
 Thats what Git and Github combined together are for, only your doing things electronically of course not with real paper, but the same mental model applies.
