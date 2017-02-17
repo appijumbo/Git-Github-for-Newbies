@@ -556,9 +556,7 @@ now in my machine I want to go to a directory inside the Desktop so
 
 Alternatively on a Mac and some other OS’s, enter `$ cd` as before (don't’ forget a space after cd). Then visually drag the folder you want to change to in the ‘finder’ (or windows explorer) Hopefully this will automatically have generated the absolute directory path. Now hit enter as before.
 
-
-<img src="./images/git-init-.jpg" width="600" height="auto" />
-
+<img src="./images/Now%20hit%20enter%20as%20before.jpg" width="600" height="auto" />
 
 
 #### 2) INITIALISE git in this directory  ($ git init)
@@ -570,8 +568,7 @@ you should get a response with the words
 
 like this
 
-<img src="./images/Now%20hit%20enter%20as%20before.jpg" width="600" height="auto" />
-
+<img src="./images/git-init-.jpg" width="600" height="auto" />
 
 And if we now look in our directory using the standard Mac GUI we see a .git directory
 This is where the actual git management and control resides.
