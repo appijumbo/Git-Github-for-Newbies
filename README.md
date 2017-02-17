@@ -193,6 +193,9 @@ CodeSchool do a fantastic job of making an otherwise dull subject actually seem 
 for more advanced users. With Code School you have a simulated Git terminal that you enter your commands into. Though it works very well, perhaps it would be nicer to actually install Git and use a real Github account as part of your learning curve. That quibble aside, it’s well worth doing this course.
 
 
+<img src="./images/gitReal%202.jpg" width="600" height="auto" />
+
+
 #### [Nodeschools ‘Git-it’](https://github.com/jlord/git-it-electron)
 (the new Electron desktop version) Time to do course: 1 hours I’d very much recommend doing this course because its an app that you download. You can keep the app an your desktop an dip into the course if your memory goes, plus its not too long to do 
 
