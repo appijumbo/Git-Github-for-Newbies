@@ -348,7 +348,7 @@ Only if your creating a _brand new_ repository inside Github, thats doesn't exis
 
 
 
-<img src="./images/In this case its brand new so its clicked.jpg" width="600" height="auto" />
+<img src="./images/click on the ‘clone or download’ button.jpg" width="600" height="auto" />
 
 
 
@@ -357,7 +357,8 @@ Now we have our repository. If we click on the ‘clone or download’ button we
 
 
 
-pic here
+
+
 
 
 
@@ -390,7 +391,7 @@ You should see a version number higher than 1.7.10, in this case 2.7.4;
 now go to “GitKraken; a cracking way to see git”
 
 
-see pic
+<img src="./images/git--version.jpg" width="600" height="auto" />
 
 
 
@@ -415,7 +416,7 @@ You can change how your terminal looks, and how it shows off your git. For examp
 
 
 
-see pic
+<img src="./images/sheilas-.jpg" width="600" height="auto" />
 
 
 It has username, the git branch I’m on (more on this later) and the directory I’m currently in, but also they are different colours. 
@@ -502,7 +503,7 @@ The first thing you should do when you install Git is to set your user name and 
 
 
 
-see pic
+<img src="./images/Github;%20a%20hub%20where%20pros%20show%20code.jpg" width="600" height="auto" />
 
 
 
@@ -523,7 +524,7 @@ Lets make a directory called ‘CommunityTechLiverpool’ in the usual way you d
 You can do this in the command line, or whatever way you normally do this
 
 
-see pic
+<img src="./images/This%20is%20where%20the%20actual%20git%20management%20and%20control%20resides.jpg" width="600" height="auto" />
 
 
 [ Note: I’ve deliberately set my Mac to show hidden files hence you can see a  ‘ .DS_Store file’   ignore this file, its just a Mac thing. ]
@@ -558,10 +559,7 @@ now in my machine I want to go to a directory inside the Desktop so
 Alternatively on a Mac and some other OS’s, enter `$ cd` as before (don't’ forget a space after cd). Then visually drag the folder you want to change to in the ‘finder’ (or windows explorer) Hopefully this will automatically have generated the absolute directory path. Now hit enter as before.
 
 
-
-see pic
-
-
+<img src="./images/git-init-.jpg" width="600" height="auto" />
 
 
 
@@ -574,12 +572,7 @@ you should get a response with the words
 
 like this
 
-
-
-
-see pic
-
-
+<img src="./images/Now%20hit%20enter%20as%20before.jpg" width="600" height="auto" />
 
 
 And if we now look in our directory using the standard Mac GUI we see a .git directory
