@@ -575,14 +575,14 @@ This is where the actual git management and control resides.
 
 
 
-see pic
+<img src="./images/This is where the actual git management and control resides.jpg" width="600" height="auto" />
 
 
 
 But note the full stop or period. This indicates that its a hidden directory. I’ve enabled hidden directories just so we can see it.  If we go back to how we would normally see our files,  Git ‘disappears’.
 
 
-see pic
+<img src="./images/If we go back to how we would normally see our files,  Git ‘disappears’.jpg" width="600" height="auto" />
 
 
 
@@ -594,17 +594,14 @@ Using the command line ($ git status) we can see where git is up to
 (which for a brand new repo should respond with the words )
 
 
-
-see pic
-
+<img src="./images/git-status-.jpg" width="600" height="auto" />
 
 
 So far so good, we’ve made a new git repo, checked its status. But theres nothing in it!
 Lets put some files and a directory to our empty repo called ‘communityTechLiverpool”
 
 
-
-see pic
+<img src="./images/git-status-.jpg" width="600" height="auto" />
 
 
 
