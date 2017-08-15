@@ -231,6 +231,23 @@ Youtube provides some excellent tutorials including:
   * [“GitHub for Noobs” by Travis Neilson](http://bit.ly/2buQQ9Z)
 Travis is a front-end developer with a superb channel aimed at the creative arty types who also need to do coding. He now works for Google and has presented some videos on Adobe’s channel. If your a ‘creative’, as in art, that needs to code his channel he’s a great starting point. He presents in a very entertaining and articulate way four videos 5 to 25 minutes each.
 
+
+* [“Git Tutorial for Beginners” by Corey Schafer](https://www.youtube.com/playlist?list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx)
+An excellent series of six videos covering the basics and some usefull extras
+
+  * Command-Line Fundamentals
+  
+  * Fixing Common Mistakes and Undoing Bad Commits
+  
+  * Using the Stash Command
+  
+  * Diff and Merge Tools
+  
+  * Change DiffMerge Font-Size on Mac OSX
+  
+  * Difference between "add -A", "add -u", "add .", and "add *"
+
+
   * [“Git Video Tutorial” by Derek Banas](http://bit.ly/2aYkkyw)
 If you like a fast pace, and your into coding then Derek’s your guy. Have a look around his channel and you'll be impressed by the breadth of his knowledge on coding.  His Git courses is four videos approx 15 to 25 mins each.
 
