@@ -248,10 +248,10 @@ An excellent series of six videos covering the basics and some usefull extras
   * Difference between "add -A", "add -u", "add .", and "add *"
 
 
-  * [“Git Video Tutorial” by Derek Banas](http://bit.ly/2aYkkyw)
+* [“Git Video Tutorial” by Derek Banas](http://bit.ly/2aYkkyw)
 If you like a fast pace, and your into coding then Derek’s your guy. Have a look around his channel and you'll be impressed by the breadth of his knowledge on coding.  His Git courses is four videos approx 15 to 25 mins each.
 
-  * Github themselves have produced Git and Github tutorials
+* Github themselves have produced Git and Github tutorials
   
   [“GitHub Training & Guides”](http://bit.ly/1KqBfC0) This is four part video tutorial from Github, each video is about 6 minutes.
 
