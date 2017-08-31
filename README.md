@@ -288,6 +288,9 @@ Tim Pettersen, a senior developer from Atlassian (the company that develops the 
 The Git workflow is discussed again with Tim in episode 77 of “The Web Platform podcast” reviewed [“Project Management and Git Workflows”](http://thewebplatformpodcast.com/77-project-management-and-git-workflows). Indeed this podcast is well worth listening to generally.
 
 
+### How to recover from a git mistake
+
+Ther's a nice article from José Guilherme Vanz, entitled [How to recover from a git mistake](https://opensource.com/article/17/8/recover-dropped-data-stash#comments) also at [his sites blog](http://jvanz.com/recovering-missed-data-from-stash.html#recovering-missed-data-from-stash) discussing how a college of his had accidentaly misapplied **git stash**. In his blog he utilises **git stash, git stash drop, git stash pop, git-fsck and git-show** to demonstrate how one can recover work thats been 'stash'ed.
 
 
 ## Part 3: A newbie guide to Git
