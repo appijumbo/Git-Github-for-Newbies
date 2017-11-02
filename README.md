@@ -32,7 +32,7 @@ Short answer; no. Indeed as a Brit myself it came as a bit of a surprise that it
 
 >**Github** is a cloud based version of Git that also provides repositories where code is stored and also tools to facilitate communication between coders. It is ostensibly a cloud based implementation of Git.
 
-###A mental model of Git for newbies
+### A mental model of Git for newbies
 Lets give you a mental model. A traditional paper office desk can become incredibly untidy and when you've run out of piling up the paper on the desk you start to pile it up un the floor, boxes, post-it notes, envelopes folders etc etc. (I’ve even known someone who had a pair of boots hidden in a pile of papers that had a mouse nesting in them!) Finding information, remembering what and who it was for can become practically impossible. 
 
 What do you do traditionally in the paper office to keep the information organised? Well you put paper in folders, then put labels on the folders, then put the folders in cabinets which act as a storage or repository for all the information. Good so far.
